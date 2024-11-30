@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Zarxd Official Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Toko Status -->
+    <div class="store-status" id="storeStatus">
+        Toko sedang tutup
+    </div>
+    
+    <!-- Header Profil Toko -->
+    <div class="store-header">
+        <img src="https://img100.pixhost.to/images/496/538366717_skyzopedia.jpg" alt="Profil Toko">
+        <div class="store-info">
+            <h1>M150 PEDIA ID</h1>
+            <p>Produk Digital</p>
+            <a href="#">Detail Toko &rarr;</a>
+        </div>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Cari Produk di M150 PEDIA ID" onkeyup="searchPackage()">
+      <i class="fa fa-search"></i>
+  </div>
+
+    <br><hr>
+    
+
+    <div class="container">
+    <h1>List Owner</h1>
+
+      <div class="panel package" data-name="JASA CAR PARKING 1" data-price="1500" data-description="JASA CAR PARKING 1">
+        <img src="https://files.catbox.moe/pro5j7.jpg" alt="Detail Produk">
+        <p class="price">JASA CAR PARKING 1</p>
+        <p class="feature"><i class="fas fa-check"></i> PROSES SANGAT CEPAT⚡️</p>
+        <p class="feature"><i class="fas fa-check"></i> 100% AMANAH</p>
+        <p class="feature"><i class="fas fa-check"></i> MURAH MERIAH</p>
+        <button onclick="openModal('modal29')" class="add-to-cart">ORDER DISINI<i class="fas fa-shopping-cart"></i></button>
+      </div>
+      
+      <div class="panel package" data-name="JASA CAR PARKING 2" data-price="3000" data-description="JASA CAR PARKING 2">
+        <img src="https://files.catbox.moe/4w0ki7.jpg" alt="Detail Produk">
+        <p class="price">JASA CAR PARKING 2</p>
+        <p class="feature"><i class="fas fa-check"></i> PROSES SANGAT CEPAT⚡️</p>
+        <p class="feature"><i class="fas fa-check"></i> CUMAN 30MENIT⚡️</p>
+        <p class="feature"><i class="fas fa-check"></i> ADMIN FASH RESPON</p>
+        <button onclick="openModal('modal30')" class="add-to-cart">ORDER DISINI<i class="fas fa-shopping-cart"></i></button>
+      </div>
+      
+      <div class="panel package" data-name="suntik jasa sosmed" data-price="1500" data-description="suntik jasa sosmed">
+        <img src="https://files.catbox.moe/80xgvf.jpg" alt="Detail Produk">
+        <p class="price">suntik jasa sosmed</p>
+        <p class="feature"><i class="fas fa-check"></i> MURAH</p>
+        <p class="feature"><i class="fas fa-check"></i> ANTI BANNED</p>
+        <p class="feature"><i class="fas fa-check"></i> PERMANEN</p>
+        <button onclick="openModal('modal24')" class="add-to-cart">ORDER DISINI<i class="fas fa-shopping-cart"></i></button>
+      </div>
+      
+      <div class="panel package" data-name="JASA REKBER/MC" data-price="3000" data-description="JASA REKBER/MC">
+        <img src="https://files.catbox.moe/vwodgx.jpg" alt="Detail Produk">
+        <p class="price">JASA REKBER/MC</p>
+        <p class="feature"><i class="fas fa-check"></i> FREE ADMIN MURAH</p>
+        <p class="feature"><i class="fas fa-check"></i> AMAN</p>
+        <p class="feature"><i class="fas fa-check"></i> ADMIN FASH RESPON</p>
+        <button onclick="openModal('modal25')" class="add-to-cart">ORDER DISINI<i class="fas fa-shopping-cart"></i></button>
+      </div>
+      
+      <div class="panel package" data-name="TOP UP GAME" data-price="4500" data-description="TOP UP GAME">
+        <img src="https://files.catbox.moe/s3vgvg.jpg" alt="Detail Produk">
+        <p class="price">TOP UP GAME</p>
+        <p class="feature"><i class="fas fa-check"></i> PROSES INSTAN👨‍💻⚡</p>
+        <p class="feature"><i class="fas fa-check"></i> 100% AMAN</p>
+        <button onclick="openModal('modal26')" class="add-to-cart">ORDER DISINI <i class="fas fa-shopping-cart"></i></button>
+      </div>
+      
+      <div class="panel package" data-name="JASA SEWA BOT WA" data-price="6000" data-description="JASA SEWA BOT WA">
+        <img src="https://files.catbox.moe/rsdorv.jpg" alt="Detail Produk">
+        <p class="price">JASA SEWA BOT WA</p>
+        <p class="feature"><i class="fas fa-check"></i> BOT ANTI ANEH-ANEH</p>
+        <p class="feature"><i class="fas fa-check"></i> BOT AMAN 100%</p>
+        <button onclick="openModal('modal27')" class="add-to-cart">ORDER DISINI <i class="fas fa-shopping-cart"></i></button>
+        </div>
+
+      <div class="panel package" data-name="JASA CV SALDO" data-price="6000" data-description="JASA CV SALDO">
+        <img src="https://files.catbox.moe/ah9u65.jpg" alt="Detail Produk">
+        <p class="price">JASA CV SALDO</p>
+        <p class="feature"><i class="fas fa-check"></i> PROSES SANGAT INSTAN⚡</p>
+        <p class="feature"><i class="fas fa-check"></i> PROSES SANGAT AMAN</p>
+        <button onclick="openModal('modal28')" class="add-to-cart">ORDER DISINI <i class="fas fa-shopping-cart"></i></button>
+        </div>
+      </div>
+  </div>
+
+    <!-- Modal Pop-up Produk 1 -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('modal1')"><i class="fas fa-times"></i></span>
+            <img src="https://files.catbox.moe/etx45t.jpg" alt="Detail Produk">
+            <div class="product-info">
+                <h3>Petrodactyl Panel</h3>
+                <ul>
+                    <li>Spesifikasi :</li>
+                    <li>Ram: 1 GB</li>
+                    <li>Disk: 1 GB</li>
+                    <li>Cpu: 50%</li>
+                </ul><br>
+                <p class="pricee">Rp. 2.000</p>
+                <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+                <a href="#" class="add-to-cart left-button" onclick="addToCart('Petrodactyl Panel 1GB', 1000)">
+                  <i class="fab fa-whatsapp"></i>WhatsApp
+                </a>
+                <a href="#" class="add-to-cart left-button" onclick="addToCartTl('Petrodactyl Panel 1GB', 1000)">
+                  <i class="fab fa-telegram"></i>Telegram
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Pop-up Produk 2 -->
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+          <span class="modal-close" onclick="closeModal('modal2')"><i class="fas fa-times"></i></span>
+          <img src="https://files.catbox.moe/etx45t.jpg" alt="Detail Produk">
+          <div class="product-info">
+              <h3>Petrodactyl Panel</h3>
+              <ul>
+                  <li>Spesifikasi :</li>
+                  <li>Ram: 2 GB</li>
+                  <li>Disk: 2 GB</li>
+                  <li>Cpu: 100%</li>
+              </ul><br>
+              <p class="pricee">Rp. 2.000</p>
+              <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+              <a href="#" class="add-to-cart left-button" onclick="addToCart('Petrodactyl Panel 2GB', 2000)">
+                <i class="fab fa-whatsapp"></i>WhatsApp
+              </a>
+              <a href="#" class="add-to-cart left-button" onclick="addToCartTl('Petrodactyl Panel 2GB', 2000)">
+                <i class="fab fa-telegram"></i>Telegram
+              </a>
+          </div>
+      </div>
+    </div>
+
+  <!-- Modal Pop-up Produk 3 -->
+    <div id="modal3" class="modal">
+      <div class="modal-content">
+          <span class="modal-close" onclick="closeModal('modal3')"><i class="fas fa-times"></i></span>
+          <img src="https://files.catbox.moe/etx45t.jpg" alt="Detail Produk">
+          <div class="product-info">
+              <h3>Petrodactyl Panel</h3>
+              <ul>
+                  <li>Spesifikasi :</li>
+                  <li>Ram: 3 GB</li>
+                  <li>Disk: 3 GB</li>
+                  <li>Cpu: 150%</li>
+              </ul><br>
+              <p class="pricee">Rp. 3.000</p>
+              <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+              <a href="#" class="add-to-cart left-button" onclick="addToCart('Petrodactyl Panel 3GB', 3000)">
+                <i class="fab fa-whatsapp"></i>WhatsApp
+              </a>
+              <a href="#" class="add-to-cart left-button" onclick="addToCartTl('Petrodactyl Panel 2GB', 3000)">
+                <i class="fab fa-telegram"></i>Telegram
+              </a>
+          </div>
+      </div>
+    </div>
+
+    <!-- Modal Pop-up Produk 2 -->
+    <div id="modal4" class="modal">
+      <div class="modal-content">
+          <span class="modal-close" onclick="closeModal('modal4')"><i class="fas fa-times"></i></span>
+          <img src="https://files.catbox.moe/etx45t.jpg" alt="Detail Produk">
+          <div class="product-info">
+              <h3>Petrodactyl Panel</h3>
+              <ul>
+                  <li>Spesifikasi :</li>
+                  <li>Ram: 4 GB</li>
+                  <li>Disk: 4 GB</li>
+                  <li>Cpu: 200%</li>
+              </ul><br>
+              <p class="pricee">Rp. 4.000</p>
+              <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+              <a href="#" class="add-to-cart left-button" onclick="addToCart('Petrodactyl Panel 4GB', 4000)">
+                <i class="fab fa-whatsapp"></i>WhatsApp
+              </a>
+              <a href="#" class="add-to-cart left-button" onclick="addToCartTl('Petrodactyl Panel 4GB', 4000)">
+                <i class="fab fa-telegram"></i>Telegram
+              </a>
+          </div>
+      </div>
+    </div>
+
+    <!-- Modal Pop-up Produk 2 -->
+    <div id="modal5" class="modal">
+      <div class="modal-content">
+          <span class="modal-close" onclick="closeModal('modal5')"><i class="fas fa-times"></i></span>
+          <img src="https://files.catbox.moe/etx45t.jpg" alt="Detail Produk">
+          <div class="product-info">
+              <h3>Petrodactyl Panel</h3>
+              <ul>
+                  <li>Spesifikasi :</li>
+                  <li>Ram: 5 GB</li>
+                  <li>Disk: 5 GB</li>
+                  <li>Cpu: 250%</li>
+              </ul><br>
+              <p class="pricee">Rp. 5.000</p>
+              <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+              <a href="#" class="add-to-cart left-button" onclick="addToCart('Petrodactyl Panel 5GB', 5000)">
+                <i class="fab fa-whatsapp"></i>WhatsApp
+              </a>
+              <a href="#" class="add-to-cart left-button" onclick="addToCartTl('Petrodactyl Panel 5GB', 5000)">
+                <i class="fab fa-telegram"></i>Telegram
+              </a>
+          </div>
+      </div>
+    </div>
+
+    <div id="modal6" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal6')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/etx45t.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>Petrodactyl Panel</h3>
+          <ul>
+            <li>Spesifikasi :</li>
+            <li>Ram: 6 GB</li>
+            <li>Disk: 6 GB</li>
+            <li>Cpu: 300%</li>
+          </ul><br>
+          <p class="pricee">Rp. 6.000</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('Petrodactyl Panel 6GB', 6000)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('Petrodactyl Panel 6GB', 6000)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal7" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal7')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/etx45t.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>Petrodactyl Panel</h3>
+          <ul>
+            <li>Spesifikasi :</li>
+            <li>Ram: 7 GB</li>
+            <li>Disk: 7 GB</li>
+            <li>Cpu: 350%</li>
+          </ul><br>
+          <p class="pricee">Rp. 7.000</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('Petrodactyl Panel 7GB', 7000)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('Petrodactyl Panel 7GB', 7000)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="modal8" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal8')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/etx45t.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>Petrodactyl Panel</h3>
+          <ul>
+            <li>Spesifikasi :</li>
+            <li>Ram: 8 GB</li>
+            <li>Disk: 8 GB</li>
+            <li>Cpu: 400%</li>
+          </ul><br>
+          <p class="pricee">Rp. 8.000</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('Petrodactyl Panel 8GB', 8000)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('Petrodactyl Panel 8GB', 8000)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="modal9" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal9')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/etx45t.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>Petrodactyl Panel</h3>
+          <ul>
+            <li>Spesifikasi :</li>
+            <li>Ram: 9 GB</li>
+            <li>Disk: 9 GB</li>
+            <li>Cpu: 450%</li>
+          </ul><br>
+          <p class="pricee">Rp. 9.000</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('Petrodactyl Panel 9GB', 9000)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('Petrodactyl Panel 9GB', 9000)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="modal10" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal10')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/etx45t.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>Petrodactyl Panel</h3>
+          <ul>
+            <li>Spesifikasi :</li>
+            <li>Ram: 10 GB</li>
+            <li>Disk: 10 GB</li>
+            <li>Cpu: 500%</li>
+          </ul><br>
+          <p class="pricee">Rp. 10.000</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('Petrodactyl Panel 10GB', 10000)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('Petrodactyl Panel 10GB', 10000)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal11" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal11')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/etx45t.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>Petrodactyl Panel</h3>
+          <ul>
+            <li>Spesifikasi :</li>
+            <li>Ram: Unlimited</li>
+            <li>Disk: Unlimited</li>
+            <li>Cpu: Unlimited</li>
+          </ul><br>
+          <p class="pricee">Rp. 12.000</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('Petrodactyl Panel Unli', 12000)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('Petrodactyl Panel Unli', 12000)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div id="modal12" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal12')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/etx45t.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>Petrodactyl Panel</h3>
+          <ul>
+            <li>Spesifikasi :</li>
+            <li>Ram: 1 GB</li>
+            <li>Disk: 1 GB</li>
+            <li>Cpu: 50%</li>
+          </ul><br>
+          <p class="pricee">Rp. 1.500</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('Petrodactyl Panel 1GB', 1500)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('Petrodactyl Panel 1GB', 1500)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="modal13" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal13')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/etx45t.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>Petrodactyl Panel</h3>
+          <ul>
+            <li>Spesifikasi :</li>
+            <li>Ram: 2 GB</li>
+            <li>Disk: 2 GB</li>
+            <li>Cpu: 100%</li>
+          </ul><br>
+          <p class="pricee">Rp. 3.000</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('Petrodactyl Panel 2GB', 3000)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('Petrodactyl Panel 2GB', 3000)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="modal14" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal14')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/etx45t.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>Petrodactyl Panel</h3>
+          <ul>
+            <li>Spesifikasi :</li>
+            <li>Ram: 3 GB</li>
+            <li>Disk: 3 GB</li>
+            <li>Cpu: 150%</li>
+          </ul><br>
+          <p class="pricee">Rp. 4.500</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('Petrodactyl Panel 3GB', 4500)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('Petrodactyl Panel 3GB', 4500)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="modal15" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal15')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/etx45t.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>Petrodactyl Panel</h3>
+          <ul>
+            <li>Spesifikasi :</li>
+            <li>Ram: 4 GB</li>
+            <li>Disk: 4 GB</li>
+            <li>Cpu: 200%</li>
+          </ul><br>
+          <p class="pricee">Rp. 6.000</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('Petrodactyl Panel 4GB', 6000)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('Petrodactyl Panel 4GB', 6000)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="modal16" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal16')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/etx45t.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>Petrodactyl Panel</h3>
+          <ul>
+            <li>Spesifikasi :</li>
+            <li>Ram: 5 GB</li>
+            <li>Disk: 5 GB</li>
+            <li>Cpu: 250%</li>
+          </ul><br>
+          <p class="pricee">Rp. 7.500</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('Petrodactyl Panel 5GB', 7500)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('Petrodactyl Panel 5GB', 7500)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="modal17" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal17')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/etx45t.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>Petrodactyl Panel</h3>
+          <ul>
+            <li>Spesifikasi :</li>
+            <li>Ram: 6 GB</li>
+            <li>Disk: 6 GB</li>
+            <li>Cpu: 300%</li>
+          </ul><br>
+          <p class="pricee">Rp. 9.000</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('Petrodactyl Panel 6GB', 9000)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('Petrodactyl Panel 6GB', 9000)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="modal18" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal18')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/etx45t.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>Petrodactyl Panel</h3>
+          <ul>
+            <li>Spesifikasi :</li>
+            <li>Ram: 7 GB</li>
+            <li>Disk: 7 GB</li>
+            <li>Cpu: 350%</li>
+          </ul><br>
+          <p class="pricee">Rp. 10.500</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('Petrodactyl Panel 7GB', 10500)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('Petrodactyl Panel 7GB', 10500)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="modal19" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal19')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/etx45t.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>Petrodactyl Panel</h3>
+          <ul>
+            <li>Spesifikasi :</li>
+            <li>Ram: 8 GB</li>
+            <li>Disk: 8 GB</li>
+            <li>Cpu: 400%</li>
+          </ul><br>
+          <p class="pricee">Rp. 12.000</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('Petrodactyl Panel 8GB', 12000)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('Petrodactyl Panel 8GB', 12000)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="modal20" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal20')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/etx45t.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>Petrodactyl Panel</h3>
+          <ul>
+            <li>Spesifikasi :</li>
+            <li>Ram: 9 GB</li>
+            <li>Disk: 9 GB</li>
+            <li>Cpu: 450%</li>
+          </ul><br>
+          <p class="pricee">Rp. 13.500</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('Petrodactyl Panel 9GB', 13500)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('Petrodactyl Panel 9GB', 13500)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="modal21" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal21')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/etx45t.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>Petrodactyl Panel</h3>
+          <ul>
+            <li>Spesifikasi :</li>
+            <li>Ram: 10 GB</li>
+            <li>Disk: 10 GB</li>
+            <li>Cpu: 500%</li>
+          </ul><br>
+          <p class="pricee">Rp. 15.000</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('Petrodactyl Panel 10GB', 15000)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('Petrodactyl Panel 10GB', 15000)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal22" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal22')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/etx45t.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>Petrodactyl Panel</h3>
+          <ul>
+            <li>Spesifikasi :</li>
+            <li>Ram: Unlimited/li>
+            <li>Disk: Unlimited</li>
+            <li>Cpu: Unlimited</li>
+          </ul><br>
+          <p class="pricee">Rp. 16.000</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('Petrodactyl Panel Unli', 16000)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('Petrodactyl Panel Unli', 16000)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+    
+            <div id="modal29" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal29')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/d19uc9.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>JASA CAR PARKING 1</h3>
+          <ul>
+            <li>Spesifikasi :</li>
+            <li>PROSES SANGAT CEPAT⚡️</li>
+            <li>100% AMANAH</li>
+            <li>MURAH MERIAH</li>
+          </ul><br>
+          <p class="pricee">ORDER DISINI</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('JASA CAR PARKING 1', 1500)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('JASA CAR PARKING 1', 1500)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="modal30" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal30')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/4w0ki7.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>JASA CAR PARKING 2</h3>
+          <ul>
+            <li>PROSES SANGAT CEPAT⚡️</li>
+            <li>CUMAN 30MENIT⚡️</li>
+            <li>ADMIN FAST RESPON</li>
+          </ul><br>
+          <p class="pricee">ORDER DISINI</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('JASA CAR PARKING 2', 1500)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('JASA CAR PARKING 2', 1500)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    
+        <div id="modal24" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal24')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/80xgvf.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>JASA SUNTIK SOSMED</h3>
+          <ul>
+            <li>Spesifikasi :</li>
+            <li>MURAH</li>
+            <li>ANTI BANNED</li>
+            <li>PERMANEN</li>
+          </ul><br>
+          <p class="pricee">ORDER DISINI</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('JASA SUNTIK SOSMED', 1500)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('JASA SUNTIK SOSMED', 1500)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="modal25" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal25')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/0vn6zs.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>JASA REKBER/MC</h3>
+          <ul>
+            <li>FREE ADMIN MURAH</li>
+            <li>AMAN</li>
+            <li>ADMIN FAST RESPON</li>
+          </ul><br>
+          <p class="pricee">ORDER DISINI</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('JASA REKBER/MC', 1500)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('JASA REKBER/MC', 1500)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="modal26" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal26')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/s3vgvg.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>TOP UP GAME</h3>
+          <ul>
+            <li>Spesifikasi :</li>
+            <li>PROSES INSTAN👨‍💻⚡</li>
+            <li>100% AMAN</li>
+          </ul><br>
+          <p class="pricee">ORDER DISINI</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('TOP UP GAME', 4500)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('TOP UP GAME', 4500)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="modal27" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal27')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/rsdorv.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>JASA SEWA BOT WA</h3>
+          <ul>
+            <li>Spesifikasi :</li>
+            <li>BOT ANTI ANEH-ANEH</li>
+            <li>BOT 100% AMAN</li>
+          </ul><br>
+          <p class="pricee">ORDER DISINI</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('JASA SEWA BOT WA', 6000)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('JASA SEWA BOT WA', 6000)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+    
+        
+    <div id="modal28" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal('modal28')"><i class="fas fa-times"></i></span>
+        <img src="https://files.catbox.moe/ah9u65.jpg" alt="Detail Produk">
+        <div class="product-info">
+          <h3>JASA CV SALDO</h3>
+          <ul>
+            <li>Spesifikasi :</li>
+            <li>PROSES SANGAT INSTAN⚡</li>
+            <li>PROSES SANGAT AMAN</li>
+          </ul><br>
+          <p class="pricee">ORDER DISINI</p>
+          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
+          <a href="#" class="add-to-cart left-button" onclick="addToCart('JASA CV SALDO', 6000)">
+            <i class="fab fa-whatsapp"></i>WhatsApp
+          </a>
+          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('JASA CV SALDO', 6000)">
+            <i class="fab fa-telegram"></i>Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+    
+        <!-- ======= About Me ======= -->
+    <div class="about-me container">
+
+      <div class="section-title">
+        <h2>About</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4" data-aos="fade-right">
+          <img src="profile.jpeg" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <p>Focused and enthusiastic developer with a keen interest in software development and artificial intelligence. By comprehensive exposure
+            to the underlying concepts and applying them vividly to various projects, my love for these domains came into being.
+            I am a passionate individual who thrives to build and apply algorithms to solve real-world industry problems.
+
+
+    </div><!-- End About Me -->
+    
+    
+
+    <script src='sc.js'></script>
+</body>
+</html>
