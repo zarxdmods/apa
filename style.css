@@ -315,29 +315,41 @@ hr {
   margin: 5px 0;
 }
 
-# About
---------------------------------------------------------------*/
-.about-me .content h3 {
-  font-weight: 700;
-  font-size: 26px;
-  color: #1c7d32;
+/* Section Background and Text Styling */
+section#contact {
+  background: #000; /* Black background */
+  padding: 7rem 0; /* Increase padding for better spacing */
 }
 
-.about-me .content ul {
-  list-style: none;
-  padding: 0;
+
+.text-primary {
+  color: #333; /* Darker primary text color */
 }
 
-.about-me .content ul li {
-  padding-bottom: 10px;
+.gradient-text {
+  background: linear-gradient(to right, #f7931a, #ff4b2b); /* Gradient for headings and icons */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* Maintain text color with gradient background */
 }
 
-.about-me .content ul i {
-  font-size: 20px;
-  padding-right: 2px;
-  color: #1c7d32;
+/* Contact Information Styling */
+.cool-text {
+  text-decoration: none; /* Remove underline from links */
+  font-weight: bold; /* Make text bolder for emphasis */
+  transition: all 0.3s ease-in-out; /* Add smooth hover animations */
 }
 
-.about-me .content p:last-child {
-  margin-bottom: 0;
+.cool-text:hover {
+  color: #f7931a; /* Change link color on hover */
+}
+
+.fas, .fab {
+  margin-right: 1rem; /* Add some spacing between icons and text */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .col-lg-6.col-md-12 {
+    margin-left: auto; /* Center contact information on smaller screens */
+  }
 }
