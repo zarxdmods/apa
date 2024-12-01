@@ -8,14 +8,14 @@
 
       function addToCart(productName, productPrice) {
         const phoneNumber = '6282259866266';
-        const message = `Halo, saya ingin membeli produk: ${productName} dengan harga Rp${productPrice}. Apakah stok masih tersedia?`;
+        const message = `Halo, saya ingin membeli produk: ${productName} boleh minta list nya?`;
         const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
         window.location.href = url;
       }
 
       function addToCartTl(productName, productPrice) {
         const botUsername = 'm150_pedia_id';
-        const message = `Halo, saya ingin membeli produk: ${productName} dengan harga Rp${productPrice}. Apakah stok masih tersedia?`;
+        const message = `Halo, saya ingin membeli produk: ${productName} boleh minta list nya?`;
         const url = `https://t.me/${botUsername}?start=${encodeURIComponent(message)}`;
         window.location.href = url;
       }
