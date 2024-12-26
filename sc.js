@@ -1,3 +1,111 @@
+const cursor = document.querySelector('.cursor');
+const trail = document.querySelector('.trail');
+let timeout; // Variabel untuk menyimpan timeout
+let isVisible = true; // Status untuk menampilkan atau menyembunyikan cursor dan trail
+
+function updateCursorPosition(x, y) {
+    // Atur posisi cursor
+    cursor.style.left = `${x}px`;
+    cursor.style.top = `${y}px`;
+
+    // Atur posisi trail
+    trail.style.left = `${x}px`;
+    trail.style.top = `${y}px`;
+
+    // Tampilkan trail dengan efek fade-in
+    trail.style.opacity = 1;
+    trail.style.transform = 'translate(-50%, -50%) scale(1)'; // Besar saat muncul
+
+    // Hapus timeout sebelumnya jika ada
+    clearTimeout(timeout);
+
+    // Setelah 300ms, sembunyikan trail
+    timeout = setTimeout(() => {
+        trail.style.opacity = 0;
+        trail.style.transform = 'translate(-50%, -50%) scale(0.5)'; // Kembali ke ukuran kecil
+    }, 300); // Durasi trail terlihat
+}
+
+// Event untuk touchmove
+document.addEventListener('touchmove', (event) => {
+    if (isVisible) {
+        const touch = event.touches[0]; // Ambil titik sentuh pertama
+        updateCursorPosition(touch.clientX, touch.clientY);
+    }
+});
+
+// Event untuk touchstart
+document.addEventListener('touchstart', (event) => {
+    if (isVisible) {
+        const touch = event.touches[0]; // Ambil titik sentuh pertama
+        updateCursorPosition(touch.clientX, touch.clientY);
+    }
+});
+
+// Event untuk mousemove
+document.addEventListener('mousemove', (event) => {
+    if (isVisible) {
+        updateCursorPosition(event.clientX, event.clientY);
+    }
+});
+
+// Event untuk mousedown
+document.addEventListener('mousedown', (event) => {
+    if (isVisible) {
+        updateCursorPosition(event.clientX, event.clientY);
+    }
+});
+
+// Event untuk touchend dan mouseup
+document.addEventListener('touchend', () => {
+    if (isVisible) {
+        trail.style.opacity = 0;
+        trail.style.transform = 'translate(-50%, -50%) scale(0.5)'; // Kembali ke ukuran kecil
+    }
+});
+
+document.addEventListener('mouseup', () => {
+    if (isVisible) {
+        trail.style.opacity = 0;
+        trail.style.transform = 'translate(-50%, -50%) scale(0.5)'; // Kembali ke ukuran kecil
+    }
+});
+
+// Event untuk double click
+document.addEventListener('dblclick', () => {
+    isVisible = !isVisible; // Toggle status tampil/tersembunyi
+
+    // Menampilkan atau menyembunyikan cursor dan trail
+    if (isVisible) {
+        cursor.style.display = 'block';
+        trail.style.display = 'block';
+    } else {
+        cursor.style.display = 'none';
+        trail.style.display = 'none';
+    }
+});
+
+ function toggleTheme() {
+    const body = document.body;
+    const themeIcon = document.getElementById('theme-icon');
+
+    body.classList.toggle('dark-theme');
+    body.classList.toggle('light-theme');
+
+    if (body.classList.contains('dark-theme')) {
+        themeIcon.classList.remove('fa-moon');
+        themeIcon.classList.add('fa-sun');
+    } else {
+        themeIcon.classList.remove('fa-sun');
+        themeIcon.classList.add('fa-moon');
+    }
+}
+
+// Set default theme
+document.addEventListener('DOMContentLoaded', () => {
+    document.body.classList.add('light-theme');
+});
+ 
       function openModal(modalId) {
         document.getElementById(modalId).style.display = "flex";
       }
@@ -8,14 +116,14 @@
 
       function addToCart(productName, productPrice) {
         const phoneNumber = '6282259866266';
-        const message = `Halo, saya ingin membeli produk: ${productName} boleh minta list nya?`;
+        const message = `Halo, saya ingin membeli produk: ${productName} dengan harga Rp${productPrice}. Apakah stok masih tersedia?`;
         const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
         window.location.href = url;
       }
 
       function addToCartTl(productName, productPrice) {
         const botUsername = 'm150_pedia_id';
-        const message = `Halo, saya ingin membeli produk: ${productName} boleh minta list nya?`;
+        const message = `Halo, saya ingin membeli produk: ${productName} dengan harga Rp${productPrice}. Apakah stok masih tersedia?`;
         const url = `https://t.me/${botUsername}?start=${encodeURIComponent(message)}`;
         window.location.href = url;
       }
@@ -71,3 +179,18 @@
           }
         }
       }
+      
+      document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Mencegah pengiriman formulir
+
+    // Ambil nilai dari input
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+
+    // Tampilkan alert dengan informasi yang diisi
+    alert(`Nama: ${name}\nEmail: ${email}\nPesan: ${message}`);
+
+    // Reset formulir setelah pengiriman
+    this.reset();
+});
