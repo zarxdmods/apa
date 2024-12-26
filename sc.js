@@ -194,3 +194,27 @@ document.addEventListener('DOMContentLoaded', () => {
     // Reset formulir setelah pengiriman
     this.reset();
 });
+
+   // JavaScript untuk mengontrol tampilan form chat
+    const chatButton = document.querySelector('.btn-chat-help-pojok-kanan-bawah');
+    const chatBox = document.querySelector('.box-chat-help-wa');
+
+    chatButton.addEventListener('click', () => {
+        // Toggle tampilan chat box
+        chatBox.style.display = chatBox.style.display === 'none' || chatBox.style.display === '' ? 'block' : 'none';
+    });
+
+    // Menangani pengiriman form
+    document.getElementById('btnFormHelpPojokKananBawah').addEventListener('click', () => {
+        const name = document.getElementById('formHelpInputNamePojokKananBawah').value;
+        const message = document.getElementById('formHelpTextareaMessagePojokKananBawah').value;
+
+        if (name && message) {
+            alert(`Nama: ${name}\nPesan: ${message}`);
+            // Reset form setelah pengiriman
+            document.getElementById('formHelpInputNamePojokKananBawah').value = '';
+            document.getElementById('formHelpTextareaMessagePojokKananBawah').value = '';
+        } else {
+            alert('Silakan isi semua field!');
+        }
+    });
