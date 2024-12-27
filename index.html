@@ -1,409 +1,409 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-5BB8W2X');</script>
-  <!-- End Google Tag Manager -->
-  <link rel="icon" type="image/png" href="/favicon.png"/>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>M150 PEDIA ID</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>    
-    <!-- Toko Status -->
-    <div class="store-status" id="storeStatus">
-        Toko sedang tutup
-    </div>
-    
-    <!-- Header Profil Toko -->
-    <div class="store-header">
-        <img src="https://img100.pixhost.to/images/496/538366717_skyzopedia.jpg" alt="Profil Toko">
-        <div class="store-info">
-            <h1>WELCOME TO WEBSITE ZARXDMODS</h1>
-            <p>Produk Digital</p>
-            <a href="#">Detail Toko &rarr;</a>
-        </div>
-        <i id="theme-icon" class="fas fa-moon theme-toggle" onclick="toggleTheme()"></i>
-    </div>
-    </div>
-    <!-- Search Bar -->
-    <div class="search-bar">
-      <input type="text" id="searchInput" placeholder="Cari Produk di M150 PEDIA ID" onkeyup="searchPackage()">
-      <i class="fa fa-search"></i>
-  </div>
-    <br><hr>
-    
-    <div class="cursor"></div>    
-    <div class="container">
-    <h1>MENU LAYANAN</h1>
-
-      <div class="panel package" data-name="JASA CAR PARKING 1" data-price="1500" data-description="JASA CAR PARKING 1">
-        <img src="https://files.catbox.moe/pro5j7.jpg" alt="Detail Produk">
-        <p class="price">JASA CAR PARKING 1</p>
-        <p class="feature"><i class="fas fa-check"></i> PROSES SANGAT CEPAT️</p>
-        <p class="feature"><i class="fas fa-check"></i> GARANSI SEUMUR HIDUP</p>
-        <p class="feature"><i class="fas fa-check"></i> HARGA BERKUALITAS</p>
-        <button onclick="openModal('modal1')" class="add-to-cart">ORDER DISINI<i class="fas fa-shopping-cart"></i></button>
-      </div>
-      
-      <div class="panel package" data-name="JASA CAR PARKING 2" data-price="3000" data-description="JASA CAR PARKING 2">
-        <img src="https://files.catbox.moe/4w0ki7.jpg" alt="Detail Produk">
-        <p class="price">JASA CAR PARKING 2</p>
-        <p class="feature"><i class="fas fa-check"></i> PROSES SANGAT CEPAT️</p>
-        <p class="feature"><i class="fas fa-check"></i> GARANSI SEUMUR HIDUP</p>
-        <p class="feature"><i class="fas fa-check"></i> HARGA BERKUALITAS</p>
-        <button onclick="openModal('modal2')" class="add-to-cart">ORDER DISINI<i class="fas fa-shopping-cart"></i></button>
-      </div>
-      
-      <div class="panel package" data-name="JASA SUNTIK SOSMED" data-price="1500" data-description="JASA SUNTIK SOSMED">
-        <img src="https://files.catbox.moe/80xgvf.jpg" alt="Detail Produk">
-        <p class="price">JASA SUNTIK SOSMED</p>
-        <p class="feature"><i class="fas fa-check"></i> Proses Cuman Pake Username & Link</p>
-        <p class="feature"><i class="fas fa-check"></i> PROSES 30MENIT SAJA</p>
-        <p class="feature"><i class="fas fa-check"></i> BERGARANSI</p>
-        <p class="feature"><i class="fas fa-check"></i> MURAH & BERKUALITAS TINGGI</p>
-        <button onclick="openModal('modal3')" class="add-to-cart">ORDER DISINI<i class="fas fa-shopping-cart"></i></button>
-      </div>
-      
-      <div class="panel package" data-name="JASA REKBER/MC" data-price="3000" data-description="JASA REKBER/MC">
-        <img src="https://files.catbox.moe/vwodgx.jpg" alt="Detail Produk">
-        <p class="price">JASA REKBER/MC</p>
-        <p class="feature"><i class="fas fa-check"></i> FREE BIAYA ADMIN SANGAT MURAH</p>
-        <p class="feature"><i class="fas fa-check"></i> ADMIN ON 1×24JAM</p>
-        <p class="feature"><i class="fas fa-check"></i> ADMIN ANTI SLOW RESPON</p>
-        <button onclick="openModal('modal4')" class="add-to-cart">ORDER DISINI<i class="fas fa-shopping-cart"></i></button>
-      </div>
-      
-      <div class="panel package" data-name="TOP UP GAME" data-price="4500" data-description="TOP UP GAME">
-        <img src="https://files.catbox.moe/s3vgvg.jpg" alt="Detail Produk">
-        <p class="price">TOP UP GAME</p>
-        <p class="feature"><i class="fas fa-check"></i> PROSES INSTAN</p>
-        <p class="feature"><i class="fas fa-check"></i> ON 1×24JAM</p>
-        <p class="feature"><i class="fas fa-check" ></i> LANGSUNG MASUK</p>
-        <p class="feature"><i class="fas fa-check" ></i> PROSES CUMAN PAKE ID</p>
-        <button onclick="openModal('modal5')" class="add-to-cart">ORDER DISINI <i class="fas fa-shopping-cart"></i></button>
-      </div>
-      
-      <div class="panel package" data-name="JASA SEWA BOT WA" data-price="6000" data-description="JASA SEWA BOT WA">
-        <img src="https://files.catbox.moe/rsdorv.jpg" alt="Detail Produk">
-        <p class="price">JASA SEWA BOT WA</p>
-        <p class="feature"><i class="fas fa-check"></i> FITUR BANYAK</p>
-        <p class="feature"><i class="fas fa-check"></i> ANTI DELAY</p>
-        <p class="feature"><i class="fas fa-check"></i> ON 24 JAM</p>
-        <p class="feature"><i class="fas fa-check"></i> MENJAGA DARI PENYUSUP</p>
-        <button onclick="openModal('modal6')" class="add-to-cart">ORDER DISINI <i class="fas fa-shopping-cart"></i></button>
-        </div>
-
-      <div class="panel package" data-name="JASA CV SALDO" data-price="6000" data-description="JASA CV SALDO">
-        <img src="https://files.catbox.moe/ah9u65.jpg" alt="Detail Produk">
-        <p class="price">JASA CV SALDO</p>
-        <p class="feature"><i class="fas fa-check"></i> PROSES SANGAT INSTAN</p>
-        <p class="feature"><i class="fas fa-check"></i> PROSES SANGAT AMAN</p>
-        <button onclick="openModal('modal7')" class="add-to-cart">ORDER DISINI <i class="fas fa-shopping-cart"></i></button>
-        </div>
-        
-         <div class="panel package" data-name="BUY PANEL" data-price="1500" data-description="BUY PANEL">
-        <img src="https://files.catbox.moe/yn3404.jpg" alt="Detail Produk">
-        <p class="price">BUY PANEL</p>
-        <p class="feature"><i class="fas fa-check"></i> PANEL 100% AMAN</p>
-        <p class="feature"><i class="fas fa-check"></i> GARANSI 7 HARI</p>
-        <p class="feature"><i class="fas fa-check"></i> ANTI DELAY</p>
-        <button onclick="openModal('modal8')" class="add-to-cart">ORDER DISINI<i class="fas fa-shopping-cart"></i></button>
-      </div>
-      
-      <div class="panel package" data-name="BUY ADP" data-price="3000" data-description="BUY ADP">
-        <img src="https://files.catbox.moe/t6mxh8.jpg" alt="Detail Produk">
-        <p class="price">BUY ADP</p>
-        <p class="feature"><i class="fas fa-check"></i> GARANSI 7 HARI</p>
-        <p class="feature"><i class="fas fa-check"></i> MURAH DAN BERKUALITAS</p>
-        <p class="feature"><i class="fas fa-check"></i> PERMANEN</p>
-        <button onclick="openModal('modal9')" class="add-to-cart">ORDER DISINI<i class="fas fa-shopping-cart"></i></button>
-      </div>
-      
-      <div class="panel package" data-name="BUY APK PREMIUM" data-price="1500" data-description="BUY APK PREMIUM">
-        <img src="https://files.catbox.moe/g1x9aj.jpg" alt="Detail Produk">
-        <p class="price">BUY APK PREMIUM</p>
-        <p class="feature"><i class="fas fa-check"></i> BERKUALITAS BAIK</p>
-        <p class="feature"><i class="fas fa-check"></i> GARANSI SANGAN BAIK</p>
-        <p class="feature"><i class="fas fa-check"></i> MURAH</p>
-        <button onclick="openModal('modal10')" class="add-to-cart">ORDER DISINI<i class="fas fa-shopping-cart"></i></button>
-      </div>
-      
-      <div class="panel package" data-name="BUY NOKOS" data-price="3000" data-description="BUY NOKOS">
-        <img src="https://files.catbox.moe/xykuh3.jpg" alt="Detail Produk">
-        <p class="price">BUY NOKOS</p>
-        <p class="feature"><i class="fas fa-check"></i> BERGARANSI</p>
-        <p class="feature"><i class="fas fa-check"></i> MURAH</p>
-        <p class="feature"><i class="fas fa-check"></i> 100% AMAN</p>
-        <button onclick="openModal('modal11')" class="add-to-cart">ORDER DISINI<i class="fas fa-shopping-cart"></i></button>
-      </div>
-        </div>
-      </div>
-  </div>
-  
-  
-<!-- Modal Pop-up Produk 1 -->
-            <div id="modal1" class="modal">
-      <div class="modal-content">
-        <span class="modal-close" onclick="closeModal('modal1')"><i class="fas fa-times"></i></span>
-        <img src="https://files.catbox.moe/d19uc9.jpg" alt="Detail Produk">
-        <div class="product-info">
-          <h3>JASA CAR PARKING 1</h3>
-          <ul>
-            <li>Spesifikasi :</li>
-            <li>PROSES SANGAT CEPAT</li>
-            <li>GARANSI SEUMUR HIDUP</li>
-            <li>HARGA BERKUALITAS</li>
-          </ul><br>
-          <p class="pricee">ORDER DISINI</p>
-          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
-          <a href="#" class="add-to-cart left-button" onclick="addToCart('JASA CAR PARKING 1', 1500)">
-            <i class="fab fa-whatsapp"></i>WhatsApp
-          </a>
-          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('JASA CAR PARKING 1', 1500)">
-            <i class="fab fa-telegram"></i>Telegram
-          </a>
-        </div>
-      </div>
-    </div>
-    
-    <div id="modal2" class="modal">
-      <div class="modal-content">
-        <span class="modal-close" onclick="closeModal('modal2')"><i class="fas fa-times"></i></span>
-        <img src="https://files.catbox.moe/4w0ki7.jpg" alt="Detail Produk">
-        <div class="product-info">
-          <h3>JASA CAR PARKING 2</h3>
-          <ul>
-            <li>Spesifikasi :</li>
-            <li>PROSES SANGAT CEPAT</li>
-            <li>GARANSI SEUMUR HIDUP</li>
-            <li>HARGA BERKUALITAS</li>
-          </ul><br>
-          <p class="pricee">ORDER DISINI</p>
-          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
-          <a href="#" class="add-to-cart left-button" onclick="addToCart('JASA CAR PARKING 2', 1500)">
-            <i class="fab fa-whatsapp"></i>WhatsApp
-          </a>
-          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('JASA CAR PARKING 2', 1500)">
-            <i class="fab fa-telegram"></i>Telegram
-          </a>
-        </div>
-      </div>
-    </div>
-    
-    
-        <div id="modal3" class="modal">
-      <div class="modal-content">
-        <span class="modal-close" onclick="closeModal('modal3')"><i class="fas fa-times"></i></span>
-        <img src="https://files.catbox.moe/80xgvf.jpg" alt="Detail Produk">
-        <div class="product-info">
-          <h3>JASA SUNTIK SOSMED</h3>
-          <ul>
-            <li>Spesifikasi :</li>
-            <li>PROSES CUMAN PAKE USERNAME & LINK</li>
-            <li>PROSES 30MENIT SAJA</li>
-            <li>BERGARANSI</li>
-            <li>MURAH & BERKUALITAS TINGGI</li>
-          </ul><br>
-          <p class="pricee">ORDER DISINI</p>
-          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
-          <a href="#" class="add-to-cart left-button" onclick="addToCart('JASA SUNTIK SOSMED', 1500)">
-            <i class="fab fa-whatsapp"></i>WhatsApp
-          </a>
-          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('JASA SUNTIK SOSMED', 1500)">
-            <i class="fab fa-telegram"></i>Telegram
-          </a>
-        </div>
-      </div>
-    </div>
-    
-    <div id="modal4" class="modal">
-      <div class="modal-content">
-        <span class="modal-close" onclick="closeModal('modal4')"><i class="fas fa-times"></i></span>
-        <img src="https://files.catbox.moe/0vn6zs.jpg" alt="Detail Produk">
-        <div class="product-info">
-          <h3>JASA REKBER/MC</h3>
-          <ul>
-            <li>Spesifikasi :</li>
-            <li>FREE BIAYA ADMIN SANGAT MURAH</li>
-            <li>ADMIN ANTI SLOW RESPON</li>
-            <li>ADMIN ON 1×24JAM</li>
-          </ul><br>
-          <p class="pricee">ORDER DISINI</p>
-          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
-          <a href="#" class="add-to-cart left-button" onclick="addToCart('JASA REKBER/MC', 1500)">
-            <i class="fab fa-whatsapp"></i>WhatsApp
-          </a>
-          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('JASA REKBER/MC', 1500)">
-            <i class="fab fa-telegram"></i>Telegram
-          </a>
-        </div>
-      </div>
-    </div>
-    
-    <div id="modal5" class="modal">
-      <div class="modal-content">
-        <span class="modal-close" onclick="closeModal('modal5')"><i class="fas fa-times"></i></span>
-        <img src="https://files.catbox.moe/s3vgvg.jpg" alt="Detail Produk">
-        <div class="product-info">
-          <h3>TOP UP GAME</h3>
-          <ul>
-            <li>Spesifikasi :</li>
-            <li>PROSES INSTAN</li>
-            <li>ON 1×24JAM</li>
-            <li>LANGSUNG MASUK</li>
-            <li>PROSES CUMAN PAKE ID</li>
-          </ul><br>
-          <p class="pricee">ORDER DISINI</p>
-          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
-          <a href="#" class="add-to-cart left-button" onclick="addToCart('TOP UP GAME', 4500)">
-            <i class="fab fa-whatsapp"></i>WhatsApp
-          </a>
-          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('TOP UP GAME', 4500)">
-            <i class="fab fa-telegram"></i>Telegram
-          </a>
-        </div>
-      </div>
-    </div>
-    
-    <div id="modal6" class="modal">
-      <div class="modal-content">
-        <span class="modal-close" onclick="closeModal('modal6')"><i class="fas fa-times"></i></span>
-        <img src="https://files.catbox.moe/rsdorv.jpg" alt="Detail Produk">
-        <div class="product-info">
-          <h3>JASA SEWA BOT WA</h3>
-          <ul>
-            <li>Spesifikasi :</li>
-            <li>FITUR BANYAK</li>
-            <li>ANTI DELAY</li>
-            <li>ON 24 JAM</li>
-            <li>MENJAGA DARI PENYUSUP</li>
-          </ul><br>
-          <p class="pricee">ORDER DISINI</p>
-          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
-          <a href="#" class="add-to-cart left-button" onclick="addToCart('JASA SEWA BOT WA', 6000)">
-            <i class="fab fa-whatsapp"></i>WhatsApp
-          </a>
-          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('JASA SEWA BOT WA', 6000)">
-            <i class="fab fa-telegram"></i>Telegram
-          </a>
-        </div>
-      </div>
-    </div>
-    
-        
-    <div id="modal7" class="modal">
-      <div class="modal-content">
-        <span class="modal-close" onclick="closeModal('modal7')"><i class="fas fa-times"></i></span>
-        <img src="https://files.catbox.moe/ah9u65.jpg" alt="Detail Produk">
-        <div class="product-info">
-          <h3>JASA CV SALDO</h3>
-          <ul>
-            <li>Spesifikasi :</li>
-            <li>PROSES SANGAT INSTAN</li>
-            <li>PROSES SANGAT AMAN</li>
-          </ul><br>
-          <p class="pricee">ORDER DISINI</p>
-          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
-          <a href="#" class="add-to-cart left-button" onclick="addToCart('JASA CV SALDO', 6000)">
-            <i class="fab fa-whatsapp"></i>WhatsApp
-          </a>
-          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('JASA CV SALDO', 6000)">
-            <i class="fab fa-telegram"></i>Telegram
-          </a>
-        </div>
-      </div>
-    </div>
-    
-       <div id="modal8" class="modal">
-      <div class="modal-content">
-        <span class="modal-close" onclick="closeModal('modal8')"><i class="fas fa-times"></i></span>
-        <img src="https://files.catbox.moe/yn3404.jpg" alt="Detail Produk">
-        <div class="product-info">
-          <h3>BUY PANEL</h3>
-          <ul>
-            <li>Spesifikasi :</li>
-            <li>PANEL 100% AMAN</li>
-            <li>GARANSI 7 HARI</li>
-            <li>ANTI DELAY</li>
-          </ul><br>
-          <p class="pricee">ORDER DISINI</p>
-          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
-          <a href="#" class="add-to-cart left-button" onclick="addToCart('BUY PANEL BG', 1500)">
-            <i class="fab fa-whatsapp"></i>WhatsApp
-          </a>
-          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('BUY PANEL BG', 1500)">
-            <i class="fab fa-telegram"></i>Telegram
-          </a>
-        </div>
-      </div>
-    </div>
-    
-        <div id="modal9" class="modal">
-      <div class="modal-content">
-        <span class="modal-close" onclick="closeModal('modal9')"><i class="fas fa-times"></i></span>
-        <img src="https://files.catbox.moe/t6mxh8.jpg" alt="Detail Produk">
-        <div class="product-info">
-          <h3>BUY ADP</h3>
-          <ul>
-            <li>Spesifikasi :</li>
-            <li>GARANSI 7 HARI</li>
-            <li>MURAH DAN BERKUALITAS</li>
-            <li>PERMANEN</li>
-          </ul><br>
-          <p class="pricee">ORDER DISINI</p>
-          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
-          <a href="#" class="add-to-cart left-button" onclick="addToCart('BUY ADP BG', 1500)">
-            <i class="fab fa-whatsapp"></i>WhatsApp
-          </a>
-          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('BUY ADP BG', 1500)">
-            <i class="fab fa-telegram"></i>Telegram
-          </a>
-        </div>
-      </div>
-    </div>
-    
-           <div id="modal10" class="modal">
-      <div class="modal-content">
-        <span class="modal-close" onclick="closeModal('modal10')"><i class="fas fa-times"></i></span>
-        <img src="https://files.catbox.moe/g1x9aj.jpg" alt="Detail Produk">
-        <div class="product-info">
-          <h3>BUY APK PREMIUM</h3>
-          <ul>
-            <li>Spesifikasi :</li>
-            <li>BERKUALITAS BAIK</li>
-            <li>GARANSI SANGAT BAIK</li>
-            <li>MURAH</li>
-          </ul><br>
-          <p class="pricee">ORDER DISINI</p>
-          <p style="text-align: center;">Silahkan Pilih Methode Pemesanan</p>
-          <a href="#" class="add-to-cart left-button" onclick="addToCart('BUY PREMIUM BG', 1500)">
-            <i class="fab fa-whatsapp"></i>WhatsApp
-          </a>
-          <a href="#" class="add-to-cart left-button" onclick="addToCartTl('BUY PREMIUM BG', 1500)">
-            <i class="fab fa-telegram"></i>Telegram
-          </a>
-        </div>
-      </div>
-    </div>
-    
-        <footer class="footer">
-            <div class="footer-content">
-                <p>
-                    ©
-                    <!-- -->2024<!-- -->
-                    Lexxyy Official Store. All rights reserved.
-                </p>
-            </div>
-        </footer>
-        
-
-          <script src='sc.js'></script>
-</body>
- </html>
+<!DOCTYPE html>&#13;
+<html lang="&#101;&#110;">&#13;
+<head>&#13;
+&#32;&#32;<!-- Google Tag Manager -->&#13;
+&#32;&#32;<script>&#40;&#102;&#117;&#110;&#99;&#116;&#105;&#111;&#110;&#40;&#119;&#44;&#100;&#44;&#115;&#44;&#108;&#44;&#105;&#41;&#123;&#119;&#91;&#108;&#93;&#61;&#119;&#91;&#108;&#93;&#124;&#124;&#91;&#93;&#59;&#119;&#91;&#108;&#93;&#46;&#112;&#117;&#115;&#104;&#40;&#123;&#39;&#103;&#116;&#109;&#46;&#115;&#116;&#97;&#114;&#116;&#39;&#58;&#13;
+&#32;&#32;&#110;&#101;&#119;&#32;&#68;&#97;&#116;&#101;&#40;&#41;&#46;&#103;&#101;&#116;&#84;&#105;&#109;&#101;&#40;&#41;&#44;&#101;&#118;&#101;&#110;&#116;&#58;&#39;&#103;&#116;&#109;&#46;&#106;&#115;&#39;&#125;&#41;&#59;&#118;&#97;&#114;&#32;&#102;&#61;&#100;&#46;&#103;&#101;&#116;&#69;&#108;&#101;&#109;&#101;&#110;&#116;&#115;&#66;&#121;&#84;&#97;&#103;&#78;&#97;&#109;&#101;&#40;&#115;&#41;&#91;&#48;&#93;&#44;&#13;
+&#32;&#32;&#106;&#61;&#100;&#46;&#99;&#114;&#101;&#97;&#116;&#101;&#69;&#108;&#101;&#109;&#101;&#110;&#116;&#40;&#115;&#41;&#44;&#100;&#108;&#61;&#108;&#33;&#61;&#39;&#100;&#97;&#116;&#97;&#76;&#97;&#121;&#101;&#114;&#39;&#63;&#39;&#38;&#108;&#61;&#39;&#43;&#108;&#58;&#39;&#39;&#59;&#106;&#46;&#97;&#115;&#121;&#110;&#99;&#61;&#116;&#114;&#117;&#101;&#59;&#106;&#46;&#115;&#114;&#99;&#61;&#13;
+&#32;&#32;&#39;&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#119;&#119;&#119;&#46;&#103;&#111;&#111;&#103;&#108;&#101;&#116;&#97;&#103;&#109;&#97;&#110;&#97;&#103;&#101;&#114;&#46;&#99;&#111;&#109;&#47;&#103;&#116;&#109;&#46;&#106;&#115;&#63;&#105;&#100;&#61;&#39;&#43;&#105;&#43;&#100;&#108;&#59;&#102;&#46;&#112;&#97;&#114;&#101;&#110;&#116;&#78;&#111;&#100;&#101;&#46;&#105;&#110;&#115;&#101;&#114;&#116;&#66;&#101;&#102;&#111;&#114;&#101;&#40;&#106;&#44;&#102;&#41;&#59;&#13;
+&#32;&#32;&#125;&#41;&#40;&#119;&#105;&#110;&#100;&#111;&#119;&#44;&#100;&#111;&#99;&#117;&#109;&#101;&#110;&#116;&#44;&#39;&#115;&#99;&#114;&#105;&#112;&#116;&#39;&#44;&#39;&#100;&#97;&#116;&#97;&#76;&#97;&#121;&#101;&#114;&#39;&#44;&#39;&#71;&#84;&#77;&#45;&#53;&#66;&#66;&#56;&#87;&#50;&#88;&#39;&#41;&#59;</script>&#13;
+&#32;&#32;<!-- End Google Tag Manager -->&#13;
+&#32;&#32;<link rel="&#105;&#99;&#111;&#110;" type="&#105;&#109;&#97;&#103;&#101;&#47;&#112;&#110;&#103;" href="&#47;&#102;&#97;&#118;&#105;&#99;&#111;&#110;&#46;&#112;&#110;&#103;"/>&#13;
+&#32;&#32;&#32;&#32;<meta charset="&#85;&#84;&#70;&#45;&#56;">&#13;
+&#32;&#32;&#32;&#32;<meta name="&#118;&#105;&#101;&#119;&#112;&#111;&#114;&#116;" content="&#119;&#105;&#100;&#116;&#104;&#61;&#100;&#101;&#118;&#105;&#99;&#101;&#45;&#119;&#105;&#100;&#116;&#104;&#44;&#32;&#105;&#110;&#105;&#116;&#105;&#97;&#108;&#45;&#115;&#99;&#97;&#108;&#101;&#61;&#49;&#44;&#32;&#109;&#97;&#120;&#105;&#109;&#117;&#109;&#45;&#115;&#99;&#97;&#108;&#101;&#61;&#49;&#44;&#32;&#117;&#115;&#101;&#114;&#45;&#115;&#99;&#97;&#108;&#97;&#98;&#108;&#101;&#61;&#110;&#111;">&#13;
+&#32;&#32;&#32;&#32;<title>&#70;&#69;&#82;&#80;&#69;&#68;&#73;&#65;&#32;&#73;&#68;</title>&#13;
+&#32;&#32;&#32;&#32;<link rel="&#115;&#116;&#121;&#108;&#101;&#115;&#104;&#101;&#101;&#116;" href="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#99;&#100;&#110;&#106;&#115;&#46;&#99;&#108;&#111;&#117;&#100;&#102;&#108;&#97;&#114;&#101;&#46;&#99;&#111;&#109;&#47;&#97;&#106;&#97;&#120;&#47;&#108;&#105;&#98;&#115;&#47;&#102;&#111;&#110;&#116;&#45;&#97;&#119;&#101;&#115;&#111;&#109;&#101;&#47;&#53;&#46;&#49;&#53;&#46;&#52;&#47;&#99;&#115;&#115;&#47;&#97;&#108;&#108;&#46;&#109;&#105;&#110;&#46;&#99;&#115;&#115;">&#13;
+&#32;&#32;&#32;&#32;<link rel="&#115;&#116;&#121;&#108;&#101;&#115;&#104;&#101;&#101;&#116;" href="&#115;&#116;&#121;&#108;&#101;&#46;&#99;&#115;&#115;">&#13;
+</head>&#13;
+<body>&#32;&#32;&#32;&#32;&#13;
+&#32;&#32;&#32;&#32;<!-- Toko Status -->&#13;
+&#32;&#32;&#32;&#32;<div class="&#115;&#116;&#111;&#114;&#101;&#45;&#115;&#116;&#97;&#116;&#117;&#115;" id="&#115;&#116;&#111;&#114;&#101;&#83;&#116;&#97;&#116;&#117;&#115;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#84;&#111;&#107;&#111;&#32;&#115;&#101;&#100;&#97;&#110;&#103;&#32;&#116;&#117;&#116;&#117;&#112;&#13;
+&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#13;
+&#32;&#32;&#32;&#32;<!-- Header Profil Toko -->&#13;
+&#32;&#32;&#32;&#32;<div class="&#115;&#116;&#111;&#114;&#101;&#45;&#104;&#101;&#97;&#100;&#101;&#114;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<img src="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#114;&#97;&#109;&#109;&#112;&#110;&#116;&#120;&#120;&#120;&#45;&#117;&#112;&#46;&#104;&#102;&#46;&#115;&#112;&#97;&#99;&#101;&#47;&#102;&#105;&#108;&#101;&#47;&#105;&#109;&#97;&#103;&#101;&#45;&#103;&#105;&#113;&#119;&#117;&#120;&#105;&#105;&#49;&#51;&#107;&#46;&#106;&#112;&#103;" alt="&#80;&#114;&#111;&#102;&#105;&#108;&#32;&#84;&#111;&#107;&#111;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#115;&#116;&#111;&#114;&#101;&#45;&#105;&#110;&#102;&#111;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<h1>&#87;&#69;&#76;&#67;&#79;&#77;&#69;&#32;&#84;&#79;&#32;&#87;&#69;&#66;&#83;&#73;&#84;&#69;&#32;&#70;&#69;&#82;&#80;&#69;&#68;&#73;&#65;</h1>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p>&#80;&#114;&#111;&#100;&#117;&#107;&#32;&#68;&#105;&#103;&#105;&#116;&#97;&#108;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<a href="&#35;">&#68;&#101;&#116;&#97;&#105;&#108;&#32;&#84;&#111;&#107;&#111;&#32;&#38;&#114;&#97;&#114;&#114;&#59;</a>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<i id="&#116;&#104;&#101;&#109;&#101;&#45;&#105;&#99;&#111;&#110;" class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#109;&#111;&#111;&#110;&#32;&#116;&#104;&#101;&#109;&#101;&#45;&#116;&#111;&#103;&#103;&#108;&#101;" onclick="&#116;&#111;&#103;&#103;&#108;&#101;&#84;&#104;&#101;&#109;&#101;&#40;&#41;"></i>&#13;
+&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;<!-- Search Bar -->&#13;
+&#32;&#32;&#32;&#32;<div class="&#115;&#101;&#97;&#114;&#99;&#104;&#45;&#98;&#97;&#114;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;<input type="&#116;&#101;&#120;&#116;" id="&#115;&#101;&#97;&#114;&#99;&#104;&#73;&#110;&#112;&#117;&#116;" placeholder="&#67;&#97;&#114;&#105;&#32;&#80;&#114;&#111;&#100;&#117;&#107;&#32;&#100;&#105;&#32;&#70;&#69;&#82;&#80;&#69;&#68;&#73;&#65;&#32;&#73;&#68;" onkeyup="&#115;&#101;&#97;&#114;&#99;&#104;&#80;&#97;&#99;&#107;&#97;&#103;&#101;&#40;&#41;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;<i class="&#102;&#97;&#32;&#102;&#97;&#45;&#115;&#101;&#97;&#114;&#99;&#104;"></i>&#13;
+&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;<br><hr>&#13;
+&#32;&#32;&#32;&#32;&#13;
+&#32;&#32;&#32;&#32;<div class="&#99;&#117;&#114;&#115;&#111;&#114;"></div>&#32;&#32;&#32;&#32;&#13;
+&#32;&#32;&#32;&#32;<div class="&#99;&#111;&#110;&#116;&#97;&#105;&#110;&#101;&#114;">&#13;
+&#32;&#32;&#32;&#32;<h1>&#77;&#69;&#78;&#85;&#32;&#76;&#65;&#89;&#65;&#78;&#65;&#78;</h1>&#13;
+&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#112;&#97;&#110;&#101;&#108;&#32;&#112;&#97;&#99;&#107;&#97;&#103;&#101;" data-name="&#74;&#65;&#83;&#65;&#32;&#67;&#65;&#82;&#32;&#80;&#65;&#82;&#75;&#73;&#78;&#71;&#32;&#49;" data-price="&#49;&#53;&#48;&#48;" data-description="&#74;&#65;&#83;&#65;&#32;&#67;&#65;&#82;&#32;&#80;&#65;&#82;&#75;&#73;&#78;&#71;&#32;&#49;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<img src="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#102;&#105;&#108;&#101;&#115;&#46;&#99;&#97;&#116;&#98;&#111;&#120;&#46;&#109;&#111;&#101;&#47;&#112;&#114;&#111;&#53;&#106;&#55;&#46;&#106;&#112;&#103;" alt="&#68;&#101;&#116;&#97;&#105;&#108;&#32;&#80;&#114;&#111;&#100;&#117;&#107;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#112;&#114;&#105;&#99;&#101;">&#74;&#65;&#83;&#65;&#32;&#67;&#65;&#82;&#32;&#80;&#65;&#82;&#75;&#73;&#78;&#71;&#32;&#49;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#80;&#82;&#79;&#83;&#69;&#83;&#32;&#83;&#65;&#78;&#71;&#65;&#84;&#32;&#67;&#69;&#80;&#65;&#84;&#239;&#184;&#143;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#71;&#65;&#82;&#65;&#78;&#83;&#73;&#32;&#83;&#69;&#85;&#77;&#85;&#82;&#32;&#72;&#73;&#68;&#85;&#80;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#72;&#65;&#82;&#71;&#65;&#32;&#66;&#69;&#82;&#75;&#85;&#65;&#76;&#73;&#84;&#65;&#83;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<button onclick="&#111;&#112;&#101;&#110;&#77;&#111;&#100;&#97;&#108;&#40;'modal1')" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;">&#79;&#82;&#68;&#69;&#82;&#32;&#68;&#73;&#83;&#73;&#78;&#73;<i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#115;&#104;&#111;&#112;&#112;&#105;&#110;&#103;&#45;&#99;&#97;&#114;&#116;"></i></button>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#112;&#97;&#110;&#101;&#108;&#32;&#112;&#97;&#99;&#107;&#97;&#103;&#101;" data-name="&#74;&#65;&#83;&#65;&#32;&#67;&#65;&#82;&#32;&#80;&#65;&#82;&#75;&#73;&#78;&#71;&#32;&#50;" data-price="&#51;&#48;&#48;&#48;" data-description="&#74;&#65;&#83;&#65;&#32;&#67;&#65;&#82;&#32;&#80;&#65;&#82;&#75;&#73;&#78;&#71;&#32;&#50;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<img src="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#102;&#105;&#108;&#101;&#115;&#46;&#99;&#97;&#116;&#98;&#111;&#120;&#46;&#109;&#111;&#101;&#47;&#52;&#119;&#48;&#107;&#105;&#55;&#46;&#106;&#112;&#103;" alt="&#68;&#101;&#116;&#97;&#105;&#108;&#32;&#80;&#114;&#111;&#100;&#117;&#107;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#112;&#114;&#105;&#99;&#101;">&#74;&#65;&#83;&#65;&#32;&#67;&#65;&#82;&#32;&#80;&#65;&#82;&#75;&#73;&#78;&#71;&#32;&#50;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#80;&#82;&#79;&#83;&#69;&#83;&#32;&#83;&#65;&#78;&#71;&#65;&#84;&#32;&#67;&#69;&#80;&#65;&#84;&#239;&#184;&#143;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#71;&#65;&#82;&#65;&#78;&#83;&#73;&#32;&#83;&#69;&#85;&#77;&#85;&#82;&#32;&#72;&#73;&#68;&#85;&#80;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#72;&#65;&#82;&#71;&#65;&#32;&#66;&#69;&#82;&#75;&#85;&#65;&#76;&#73;&#84;&#65;&#83;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<button onclick="&#111;&#112;&#101;&#110;&#77;&#111;&#100;&#97;&#108;&#40;'modal2')" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;">&#79;&#82;&#68;&#69;&#82;&#32;&#68;&#73;&#83;&#73;&#78;&#73;<i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#115;&#104;&#111;&#112;&#112;&#105;&#110;&#103;&#45;&#99;&#97;&#114;&#116;"></i></button>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#112;&#97;&#110;&#101;&#108;&#32;&#112;&#97;&#99;&#107;&#97;&#103;&#101;" data-name="&#74;&#65;&#83;&#65;&#32;&#83;&#85;&#78;&#84;&#73;&#75;&#32;&#83;&#79;&#83;&#77;&#69;&#68;" data-price="&#49;&#53;&#48;&#48;" data-description="&#74;&#65;&#83;&#65;&#32;&#83;&#85;&#78;&#84;&#73;&#75;&#32;&#83;&#79;&#83;&#77;&#69;&#68;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<img src="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#102;&#105;&#108;&#101;&#115;&#46;&#99;&#97;&#116;&#98;&#111;&#120;&#46;&#109;&#111;&#101;&#47;&#56;&#48;&#120;&#103;&#118;&#102;&#46;&#106;&#112;&#103;" alt="&#68;&#101;&#116;&#97;&#105;&#108;&#32;&#80;&#114;&#111;&#100;&#117;&#107;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#112;&#114;&#105;&#99;&#101;">&#74;&#65;&#83;&#65;&#32;&#83;&#85;&#78;&#84;&#73;&#75;&#32;&#83;&#79;&#83;&#77;&#69;&#68;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#80;&#114;&#111;&#115;&#101;&#115;&#32;&#67;&#117;&#109;&#97;&#110;&#32;&#80;&#97;&#107;&#101;&#32;&#85;&#115;&#101;&#114;&#110;&#97;&#109;&#101;&#32;&#38;&#32;&#76;&#105;&#110;&#107;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#80;&#82;&#79;&#83;&#69;&#83;&#32;&#51;&#48;&#77;&#69;&#78;&#73;&#84;&#32;&#83;&#65;&#74;&#65;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#66;&#69;&#82;&#71;&#65;&#82;&#65;&#78;&#83;&#73;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#77;&#85;&#82;&#65;&#72;&#32;&#38;&#32;&#66;&#69;&#82;&#75;&#85;&#65;&#76;&#73;&#84;&#65;&#83;&#32;&#84;&#73;&#78;&#71;&#71;&#73;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<button onclick="&#111;&#112;&#101;&#110;&#77;&#111;&#100;&#97;&#108;&#40;'modal3')" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;">&#79;&#82;&#68;&#69;&#82;&#32;&#68;&#73;&#83;&#73;&#78;&#73;<i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#115;&#104;&#111;&#112;&#112;&#105;&#110;&#103;&#45;&#99;&#97;&#114;&#116;"></i></button>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#112;&#97;&#110;&#101;&#108;&#32;&#112;&#97;&#99;&#107;&#97;&#103;&#101;" data-name="&#74;&#65;&#83;&#65;&#32;&#82;&#69;&#75;&#66;&#69;&#82;&#47;&#77;&#67;" data-price="&#51;&#48;&#48;&#48;" data-description="&#74;&#65;&#83;&#65;&#32;&#82;&#69;&#75;&#66;&#69;&#82;&#47;&#77;&#67;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<img src="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#102;&#105;&#108;&#101;&#115;&#46;&#99;&#97;&#116;&#98;&#111;&#120;&#46;&#109;&#111;&#101;&#47;&#118;&#119;&#111;&#100;&#103;&#120;&#46;&#106;&#112;&#103;" alt="&#68;&#101;&#116;&#97;&#105;&#108;&#32;&#80;&#114;&#111;&#100;&#117;&#107;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#112;&#114;&#105;&#99;&#101;">&#74;&#65;&#83;&#65;&#32;&#82;&#69;&#75;&#66;&#69;&#82;&#47;&#77;&#67;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#70;&#82;&#69;&#69;&#32;&#66;&#73;&#65;&#89;&#65;&#32;&#65;&#68;&#77;&#73;&#78;&#32;&#83;&#65;&#78;&#71;&#65;&#84;&#32;&#77;&#85;&#82;&#65;&#72;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#65;&#68;&#77;&#73;&#78;&#32;&#79;&#78;&#32;&#49;&#195;&#151;&#50;&#52;&#74;&#65;&#77;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#65;&#68;&#77;&#73;&#78;&#32;&#65;&#78;&#84;&#73;&#32;&#83;&#76;&#79;&#87;&#32;&#82;&#69;&#83;&#80;&#79;&#78;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<button onclick="&#111;&#112;&#101;&#110;&#77;&#111;&#100;&#97;&#108;&#40;'modal4')" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;">&#79;&#82;&#68;&#69;&#82;&#32;&#68;&#73;&#83;&#73;&#78;&#73;<i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#115;&#104;&#111;&#112;&#112;&#105;&#110;&#103;&#45;&#99;&#97;&#114;&#116;"></i></button>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#112;&#97;&#110;&#101;&#108;&#32;&#112;&#97;&#99;&#107;&#97;&#103;&#101;" data-name="&#84;&#79;&#80;&#32;&#85;&#80;&#32;&#71;&#65;&#77;&#69;" data-price="&#52;&#53;&#48;&#48;" data-description="&#84;&#79;&#80;&#32;&#85;&#80;&#32;&#71;&#65;&#77;&#69;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<img src="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#102;&#105;&#108;&#101;&#115;&#46;&#99;&#97;&#116;&#98;&#111;&#120;&#46;&#109;&#111;&#101;&#47;&#115;&#51;&#118;&#103;&#118;&#103;&#46;&#106;&#112;&#103;" alt="&#68;&#101;&#116;&#97;&#105;&#108;&#32;&#80;&#114;&#111;&#100;&#117;&#107;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#112;&#114;&#105;&#99;&#101;">&#84;&#79;&#80;&#32;&#85;&#80;&#32;&#71;&#65;&#77;&#69;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#80;&#82;&#79;&#83;&#69;&#83;&#32;&#73;&#78;&#83;&#84;&#65;&#78;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#79;&#78;&#32;&#49;&#195;&#151;&#50;&#52;&#74;&#65;&#77;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;" ></i>&#32;&#76;&#65;&#78;&#71;&#83;&#85;&#78;&#71;&#32;&#77;&#65;&#83;&#85;&#75;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;" ></i>&#32;&#80;&#82;&#79;&#83;&#69;&#83;&#32;&#67;&#85;&#77;&#65;&#78;&#32;&#80;&#65;&#75;&#69;&#32;&#73;&#68;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<button onclick="&#111;&#112;&#101;&#110;&#77;&#111;&#100;&#97;&#108;&#40;'modal5')" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;">&#79;&#82;&#68;&#69;&#82;&#32;&#68;&#73;&#83;&#73;&#78;&#73;&#32;<i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#115;&#104;&#111;&#112;&#112;&#105;&#110;&#103;&#45;&#99;&#97;&#114;&#116;"></i></button>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#112;&#97;&#110;&#101;&#108;&#32;&#112;&#97;&#99;&#107;&#97;&#103;&#101;" data-name="&#74;&#65;&#83;&#65;&#32;&#83;&#69;&#87;&#65;&#32;&#66;&#79;&#84;&#32;&#87;&#65;" data-price="&#54;&#48;&#48;&#48;" data-description="&#74;&#65;&#83;&#65;&#32;&#83;&#69;&#87;&#65;&#32;&#66;&#79;&#84;&#32;&#87;&#65;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<img src="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#102;&#105;&#108;&#101;&#115;&#46;&#99;&#97;&#116;&#98;&#111;&#120;&#46;&#109;&#111;&#101;&#47;&#114;&#115;&#100;&#111;&#114;&#118;&#46;&#106;&#112;&#103;" alt="&#68;&#101;&#116;&#97;&#105;&#108;&#32;&#80;&#114;&#111;&#100;&#117;&#107;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#112;&#114;&#105;&#99;&#101;">&#74;&#65;&#83;&#65;&#32;&#83;&#69;&#87;&#65;&#32;&#66;&#79;&#84;&#32;&#87;&#65;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#70;&#73;&#84;&#85;&#82;&#32;&#66;&#65;&#78;&#89;&#65;&#75;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#65;&#78;&#84;&#73;&#32;&#68;&#69;&#76;&#65;&#89;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#79;&#78;&#32;&#50;&#52;&#32;&#74;&#65;&#77;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#77;&#69;&#78;&#74;&#65;&#71;&#65;&#32;&#68;&#65;&#82;&#73;&#32;&#80;&#69;&#78;&#89;&#85;&#83;&#85;&#80;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<button onclick="&#111;&#112;&#101;&#110;&#77;&#111;&#100;&#97;&#108;&#40;'modal6')" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;">&#79;&#82;&#68;&#69;&#82;&#32;&#68;&#73;&#83;&#73;&#78;&#73;&#32;<i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#115;&#104;&#111;&#112;&#112;&#105;&#110;&#103;&#45;&#99;&#97;&#114;&#116;"></i></button>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#112;&#97;&#110;&#101;&#108;&#32;&#112;&#97;&#99;&#107;&#97;&#103;&#101;" data-name="&#74;&#65;&#83;&#65;&#32;&#67;&#86;&#32;&#83;&#65;&#76;&#68;&#79;" data-price="&#54;&#48;&#48;&#48;" data-description="&#74;&#65;&#83;&#65;&#32;&#67;&#86;&#32;&#83;&#65;&#76;&#68;&#79;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<img src="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#102;&#105;&#108;&#101;&#115;&#46;&#99;&#97;&#116;&#98;&#111;&#120;&#46;&#109;&#111;&#101;&#47;&#97;&#104;&#57;&#117;&#54;&#53;&#46;&#106;&#112;&#103;" alt="&#68;&#101;&#116;&#97;&#105;&#108;&#32;&#80;&#114;&#111;&#100;&#117;&#107;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#112;&#114;&#105;&#99;&#101;">&#74;&#65;&#83;&#65;&#32;&#67;&#86;&#32;&#83;&#65;&#76;&#68;&#79;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#80;&#82;&#79;&#83;&#69;&#83;&#32;&#83;&#65;&#78;&#71;&#65;&#84;&#32;&#73;&#78;&#83;&#84;&#65;&#78;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#80;&#82;&#79;&#83;&#69;&#83;&#32;&#83;&#65;&#78;&#71;&#65;&#84;&#32;&#65;&#77;&#65;&#78;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<button onclick="&#111;&#112;&#101;&#110;&#77;&#111;&#100;&#97;&#108;&#40;'modal7')" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;">&#79;&#82;&#68;&#69;&#82;&#32;&#68;&#73;&#83;&#73;&#78;&#73;&#32;<i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#115;&#104;&#111;&#112;&#112;&#105;&#110;&#103;&#45;&#99;&#97;&#114;&#116;"></i></button>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#112;&#97;&#110;&#101;&#108;&#32;&#112;&#97;&#99;&#107;&#97;&#103;&#101;" data-name="&#66;&#85;&#89;&#32;&#80;&#65;&#78;&#69;&#76;" data-price="&#49;&#53;&#48;&#48;" data-description="&#66;&#85;&#89;&#32;&#80;&#65;&#78;&#69;&#76;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<img src="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#102;&#105;&#108;&#101;&#115;&#46;&#99;&#97;&#116;&#98;&#111;&#120;&#46;&#109;&#111;&#101;&#47;&#121;&#110;&#51;&#52;&#48;&#52;&#46;&#106;&#112;&#103;" alt="&#68;&#101;&#116;&#97;&#105;&#108;&#32;&#80;&#114;&#111;&#100;&#117;&#107;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#112;&#114;&#105;&#99;&#101;">&#66;&#85;&#89;&#32;&#80;&#65;&#78;&#69;&#76;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#80;&#65;&#78;&#69;&#76;&#32;&#49;&#48;&#48;&#37;&#32;&#65;&#77;&#65;&#78;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#71;&#65;&#82;&#65;&#78;&#83;&#73;&#32;&#55;&#32;&#72;&#65;&#82;&#73;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#65;&#78;&#84;&#73;&#32;&#68;&#69;&#76;&#65;&#89;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<button onclick="&#111;&#112;&#101;&#110;&#77;&#111;&#100;&#97;&#108;&#40;'modal8')" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;">&#79;&#82;&#68;&#69;&#82;&#32;&#68;&#73;&#83;&#73;&#78;&#73;<i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#115;&#104;&#111;&#112;&#112;&#105;&#110;&#103;&#45;&#99;&#97;&#114;&#116;"></i></button>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#112;&#97;&#110;&#101;&#108;&#32;&#112;&#97;&#99;&#107;&#97;&#103;&#101;" data-name="&#66;&#85;&#89;&#32;&#65;&#68;&#80;" data-price="&#51;&#48;&#48;&#48;" data-description="&#66;&#85;&#89;&#32;&#65;&#68;&#80;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<img src="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#102;&#105;&#108;&#101;&#115;&#46;&#99;&#97;&#116;&#98;&#111;&#120;&#46;&#109;&#111;&#101;&#47;&#116;&#54;&#109;&#120;&#104;&#56;&#46;&#106;&#112;&#103;" alt="&#68;&#101;&#116;&#97;&#105;&#108;&#32;&#80;&#114;&#111;&#100;&#117;&#107;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#112;&#114;&#105;&#99;&#101;">&#66;&#85;&#89;&#32;&#65;&#68;&#80;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#71;&#65;&#82;&#65;&#78;&#83;&#73;&#32;&#55;&#32;&#72;&#65;&#82;&#73;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#77;&#85;&#82;&#65;&#72;&#32;&#68;&#65;&#78;&#32;&#66;&#69;&#82;&#75;&#85;&#65;&#76;&#73;&#84;&#65;&#83;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#80;&#69;&#82;&#77;&#65;&#78;&#69;&#78;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<button onclick="&#111;&#112;&#101;&#110;&#77;&#111;&#100;&#97;&#108;&#40;'modal9')" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;">&#79;&#82;&#68;&#69;&#82;&#32;&#68;&#73;&#83;&#73;&#78;&#73;<i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#115;&#104;&#111;&#112;&#112;&#105;&#110;&#103;&#45;&#99;&#97;&#114;&#116;"></i></button>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#112;&#97;&#110;&#101;&#108;&#32;&#112;&#97;&#99;&#107;&#97;&#103;&#101;" data-name="&#66;&#85;&#89;&#32;&#65;&#80;&#75;&#32;&#80;&#82;&#69;&#77;&#73;&#85;&#77;" data-price="&#49;&#53;&#48;&#48;" data-description="&#66;&#85;&#89;&#32;&#65;&#80;&#75;&#32;&#80;&#82;&#69;&#77;&#73;&#85;&#77;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<img src="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#102;&#105;&#108;&#101;&#115;&#46;&#99;&#97;&#116;&#98;&#111;&#120;&#46;&#109;&#111;&#101;&#47;&#103;&#49;&#120;&#57;&#97;&#106;&#46;&#106;&#112;&#103;" alt="&#68;&#101;&#116;&#97;&#105;&#108;&#32;&#80;&#114;&#111;&#100;&#117;&#107;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#112;&#114;&#105;&#99;&#101;">&#66;&#85;&#89;&#32;&#65;&#80;&#75;&#32;&#80;&#82;&#69;&#77;&#73;&#85;&#77;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#66;&#69;&#82;&#75;&#85;&#65;&#76;&#73;&#84;&#65;&#83;&#32;&#66;&#65;&#73;&#75;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#71;&#65;&#82;&#65;&#78;&#83;&#73;&#32;&#83;&#65;&#78;&#71;&#65;&#78;&#32;&#66;&#65;&#73;&#75;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#77;&#85;&#82;&#65;&#72;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<button onclick="&#111;&#112;&#101;&#110;&#77;&#111;&#100;&#97;&#108;&#40;'modal10')" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;">&#79;&#82;&#68;&#69;&#82;&#32;&#68;&#73;&#83;&#73;&#78;&#73;<i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#115;&#104;&#111;&#112;&#112;&#105;&#110;&#103;&#45;&#99;&#97;&#114;&#116;"></i></button>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#112;&#97;&#110;&#101;&#108;&#32;&#112;&#97;&#99;&#107;&#97;&#103;&#101;" data-name="&#66;&#85;&#89;&#32;&#78;&#79;&#75;&#79;&#83;" data-price="&#51;&#48;&#48;&#48;" data-description="&#66;&#85;&#89;&#32;&#78;&#79;&#75;&#79;&#83;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<img src="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#102;&#105;&#108;&#101;&#115;&#46;&#99;&#97;&#116;&#98;&#111;&#120;&#46;&#109;&#111;&#101;&#47;&#120;&#121;&#107;&#117;&#104;&#51;&#46;&#106;&#112;&#103;" alt="&#68;&#101;&#116;&#97;&#105;&#108;&#32;&#80;&#114;&#111;&#100;&#117;&#107;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#112;&#114;&#105;&#99;&#101;">&#66;&#85;&#89;&#32;&#78;&#79;&#75;&#79;&#83;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#66;&#69;&#82;&#71;&#65;&#82;&#65;&#78;&#83;&#73;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#77;&#85;&#82;&#65;&#72;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#102;&#101;&#97;&#116;&#117;&#114;&#101;"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#99;&#104;&#101;&#99;&#107;"></i>&#32;&#49;&#48;&#48;&#37;&#32;&#65;&#77;&#65;&#78;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<button onclick="&#111;&#112;&#101;&#110;&#77;&#111;&#100;&#97;&#108;&#40;'modal11')" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;">&#79;&#82;&#68;&#69;&#82;&#32;&#68;&#73;&#83;&#73;&#78;&#73;<i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#115;&#104;&#111;&#112;&#112;&#105;&#110;&#103;&#45;&#99;&#97;&#114;&#116;"></i></button>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;</div>&#13;
+&#32;&#32;&#13;
+&#32;&#32;&#13;
+<!-- Modal Pop-up Produk 1 -->&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<div id="&#109;&#111;&#100;&#97;&#108;&#49;" class="&#109;&#111;&#100;&#97;&#108;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#109;&#111;&#100;&#97;&#108;&#45;&#99;&#111;&#110;&#116;&#101;&#110;&#116;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<span class="&#109;&#111;&#100;&#97;&#108;&#45;&#99;&#108;&#111;&#115;&#101;" onclick="&#99;&#108;&#111;&#115;&#101;&#77;&#111;&#100;&#97;&#108;&#40;'modal1')"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#116;&#105;&#109;&#101;&#115;"></i></span>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<img src="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#102;&#105;&#108;&#101;&#115;&#46;&#99;&#97;&#116;&#98;&#111;&#120;&#46;&#109;&#111;&#101;&#47;&#100;&#49;&#57;&#117;&#99;&#57;&#46;&#106;&#112;&#103;" alt="&#68;&#101;&#116;&#97;&#105;&#108;&#32;&#80;&#114;&#111;&#100;&#117;&#107;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#112;&#114;&#111;&#100;&#117;&#99;&#116;&#45;&#105;&#110;&#102;&#111;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<h3>&#74;&#65;&#83;&#65;&#32;&#67;&#65;&#82;&#32;&#80;&#65;&#82;&#75;&#73;&#78;&#71;&#32;&#49;</h3>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<ul>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#83;&#112;&#101;&#115;&#105;&#102;&#105;&#107;&#97;&#115;&#105;&#32;&#58;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#80;&#82;&#79;&#83;&#69;&#83;&#32;&#83;&#65;&#78;&#71;&#65;&#84;&#32;&#67;&#69;&#80;&#65;&#84;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#71;&#65;&#82;&#65;&#78;&#83;&#73;&#32;&#83;&#69;&#85;&#77;&#85;&#82;&#32;&#72;&#73;&#68;&#85;&#80;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#72;&#65;&#82;&#71;&#65;&#32;&#66;&#69;&#82;&#75;&#85;&#65;&#76;&#73;&#84;&#65;&#83;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</ul><br>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#112;&#114;&#105;&#99;&#101;&#101;">&#79;&#82;&#68;&#69;&#82;&#32;&#68;&#73;&#83;&#73;&#78;&#73;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p style="&#116;&#101;&#120;&#116;&#45;&#97;&#108;&#105;&#103;&#110;&#58;&#32;&#99;&#101;&#110;&#116;&#101;&#114;&#59;">&#83;&#105;&#108;&#97;&#104;&#107;&#97;&#110;&#32;&#80;&#105;&#108;&#105;&#104;&#32;&#77;&#101;&#116;&#104;&#111;&#100;&#101;&#32;&#80;&#101;&#109;&#101;&#115;&#97;&#110;&#97;&#110;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<a href="&#35;" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;&#32;&#108;&#101;&#102;&#116;&#45;&#98;&#117;&#116;&#116;&#111;&#110;" onclick="&#97;&#100;&#100;&#84;&#111;&#67;&#97;&#114;&#116;&#40;'JASA CAR PARKING 1', 1500)">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<i class="&#102;&#97;&#98;&#32;&#102;&#97;&#45;&#119;&#104;&#97;&#116;&#115;&#97;&#112;&#112;"></i>&#87;&#104;&#97;&#116;&#115;&#65;&#112;&#112;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</a>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<a href="&#35;" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;&#32;&#108;&#101;&#102;&#116;&#45;&#98;&#117;&#116;&#116;&#111;&#110;" onclick="&#97;&#100;&#100;&#84;&#111;&#67;&#97;&#114;&#116;&#84;&#108;&#40;'JASA CAR PARKING 1', 1500)">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<i class="&#102;&#97;&#98;&#32;&#102;&#97;&#45;&#116;&#101;&#108;&#101;&#103;&#114;&#97;&#109;"></i>&#84;&#101;&#108;&#101;&#103;&#114;&#97;&#109;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</a>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#13;
+&#32;&#32;&#32;&#32;<div id="&#109;&#111;&#100;&#97;&#108;&#50;" class="&#109;&#111;&#100;&#97;&#108;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#109;&#111;&#100;&#97;&#108;&#45;&#99;&#111;&#110;&#116;&#101;&#110;&#116;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<span class="&#109;&#111;&#100;&#97;&#108;&#45;&#99;&#108;&#111;&#115;&#101;" onclick="&#99;&#108;&#111;&#115;&#101;&#77;&#111;&#100;&#97;&#108;&#40;'modal2')"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#116;&#105;&#109;&#101;&#115;"></i></span>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<img src="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#102;&#105;&#108;&#101;&#115;&#46;&#99;&#97;&#116;&#98;&#111;&#120;&#46;&#109;&#111;&#101;&#47;&#52;&#119;&#48;&#107;&#105;&#55;&#46;&#106;&#112;&#103;" alt="&#68;&#101;&#116;&#97;&#105;&#108;&#32;&#80;&#114;&#111;&#100;&#117;&#107;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#112;&#114;&#111;&#100;&#117;&#99;&#116;&#45;&#105;&#110;&#102;&#111;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<h3>&#74;&#65;&#83;&#65;&#32;&#67;&#65;&#82;&#32;&#80;&#65;&#82;&#75;&#73;&#78;&#71;&#32;&#50;</h3>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<ul>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#83;&#112;&#101;&#115;&#105;&#102;&#105;&#107;&#97;&#115;&#105;&#32;&#58;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#80;&#82;&#79;&#83;&#69;&#83;&#32;&#83;&#65;&#78;&#71;&#65;&#84;&#32;&#67;&#69;&#80;&#65;&#84;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#71;&#65;&#82;&#65;&#78;&#83;&#73;&#32;&#83;&#69;&#85;&#77;&#85;&#82;&#32;&#72;&#73;&#68;&#85;&#80;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#72;&#65;&#82;&#71;&#65;&#32;&#66;&#69;&#82;&#75;&#85;&#65;&#76;&#73;&#84;&#65;&#83;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</ul><br>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#112;&#114;&#105;&#99;&#101;&#101;">&#79;&#82;&#68;&#69;&#82;&#32;&#68;&#73;&#83;&#73;&#78;&#73;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p style="&#116;&#101;&#120;&#116;&#45;&#97;&#108;&#105;&#103;&#110;&#58;&#32;&#99;&#101;&#110;&#116;&#101;&#114;&#59;">&#83;&#105;&#108;&#97;&#104;&#107;&#97;&#110;&#32;&#80;&#105;&#108;&#105;&#104;&#32;&#77;&#101;&#116;&#104;&#111;&#100;&#101;&#32;&#80;&#101;&#109;&#101;&#115;&#97;&#110;&#97;&#110;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<a href="&#35;" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;&#32;&#108;&#101;&#102;&#116;&#45;&#98;&#117;&#116;&#116;&#111;&#110;" onclick="&#97;&#100;&#100;&#84;&#111;&#67;&#97;&#114;&#116;&#40;'JASA CAR PARKING 2', 1500)">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<i class="&#102;&#97;&#98;&#32;&#102;&#97;&#45;&#119;&#104;&#97;&#116;&#115;&#97;&#112;&#112;"></i>&#87;&#104;&#97;&#116;&#115;&#65;&#112;&#112;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</a>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<a href="&#35;" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;&#32;&#108;&#101;&#102;&#116;&#45;&#98;&#117;&#116;&#116;&#111;&#110;" onclick="&#97;&#100;&#100;&#84;&#111;&#67;&#97;&#114;&#116;&#84;&#108;&#40;'JASA CAR PARKING 2', 1500)">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<i class="&#102;&#97;&#98;&#32;&#102;&#97;&#45;&#116;&#101;&#108;&#101;&#103;&#114;&#97;&#109;"></i>&#84;&#101;&#108;&#101;&#103;&#114;&#97;&#109;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</a>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#13;
+&#32;&#32;&#32;&#32;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<div id="&#109;&#111;&#100;&#97;&#108;&#51;" class="&#109;&#111;&#100;&#97;&#108;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#109;&#111;&#100;&#97;&#108;&#45;&#99;&#111;&#110;&#116;&#101;&#110;&#116;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<span class="&#109;&#111;&#100;&#97;&#108;&#45;&#99;&#108;&#111;&#115;&#101;" onclick="&#99;&#108;&#111;&#115;&#101;&#77;&#111;&#100;&#97;&#108;&#40;'modal3')"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#116;&#105;&#109;&#101;&#115;"></i></span>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<img src="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#102;&#105;&#108;&#101;&#115;&#46;&#99;&#97;&#116;&#98;&#111;&#120;&#46;&#109;&#111;&#101;&#47;&#56;&#48;&#120;&#103;&#118;&#102;&#46;&#106;&#112;&#103;" alt="&#68;&#101;&#116;&#97;&#105;&#108;&#32;&#80;&#114;&#111;&#100;&#117;&#107;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#112;&#114;&#111;&#100;&#117;&#99;&#116;&#45;&#105;&#110;&#102;&#111;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<h3>&#74;&#65;&#83;&#65;&#32;&#83;&#85;&#78;&#84;&#73;&#75;&#32;&#83;&#79;&#83;&#77;&#69;&#68;</h3>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<ul>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#83;&#112;&#101;&#115;&#105;&#102;&#105;&#107;&#97;&#115;&#105;&#32;&#58;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#80;&#82;&#79;&#83;&#69;&#83;&#32;&#67;&#85;&#77;&#65;&#78;&#32;&#80;&#65;&#75;&#69;&#32;&#85;&#83;&#69;&#82;&#78;&#65;&#77;&#69;&#32;&#38;&#32;&#76;&#73;&#78;&#75;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#80;&#82;&#79;&#83;&#69;&#83;&#32;&#51;&#48;&#77;&#69;&#78;&#73;&#84;&#32;&#83;&#65;&#74;&#65;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#66;&#69;&#82;&#71;&#65;&#82;&#65;&#78;&#83;&#73;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#77;&#85;&#82;&#65;&#72;&#32;&#38;&#32;&#66;&#69;&#82;&#75;&#85;&#65;&#76;&#73;&#84;&#65;&#83;&#32;&#84;&#73;&#78;&#71;&#71;&#73;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</ul><br>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#112;&#114;&#105;&#99;&#101;&#101;">&#79;&#82;&#68;&#69;&#82;&#32;&#68;&#73;&#83;&#73;&#78;&#73;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p style="&#116;&#101;&#120;&#116;&#45;&#97;&#108;&#105;&#103;&#110;&#58;&#32;&#99;&#101;&#110;&#116;&#101;&#114;&#59;">&#83;&#105;&#108;&#97;&#104;&#107;&#97;&#110;&#32;&#80;&#105;&#108;&#105;&#104;&#32;&#77;&#101;&#116;&#104;&#111;&#100;&#101;&#32;&#80;&#101;&#109;&#101;&#115;&#97;&#110;&#97;&#110;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<a href="&#35;" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;&#32;&#108;&#101;&#102;&#116;&#45;&#98;&#117;&#116;&#116;&#111;&#110;" onclick="&#97;&#100;&#100;&#84;&#111;&#67;&#97;&#114;&#116;&#40;'JASA SUNTIK SOSMED', 1500)">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<i class="&#102;&#97;&#98;&#32;&#102;&#97;&#45;&#119;&#104;&#97;&#116;&#115;&#97;&#112;&#112;"></i>&#87;&#104;&#97;&#116;&#115;&#65;&#112;&#112;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</a>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<a href="&#35;" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;&#32;&#108;&#101;&#102;&#116;&#45;&#98;&#117;&#116;&#116;&#111;&#110;" onclick="&#97;&#100;&#100;&#84;&#111;&#67;&#97;&#114;&#116;&#84;&#108;&#40;'JASA SUNTIK SOSMED', 1500)">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<i class="&#102;&#97;&#98;&#32;&#102;&#97;&#45;&#116;&#101;&#108;&#101;&#103;&#114;&#97;&#109;"></i>&#84;&#101;&#108;&#101;&#103;&#114;&#97;&#109;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</a>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#13;
+&#32;&#32;&#32;&#32;<div id="&#109;&#111;&#100;&#97;&#108;&#52;" class="&#109;&#111;&#100;&#97;&#108;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#109;&#111;&#100;&#97;&#108;&#45;&#99;&#111;&#110;&#116;&#101;&#110;&#116;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<span class="&#109;&#111;&#100;&#97;&#108;&#45;&#99;&#108;&#111;&#115;&#101;" onclick="&#99;&#108;&#111;&#115;&#101;&#77;&#111;&#100;&#97;&#108;&#40;'modal4')"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#116;&#105;&#109;&#101;&#115;"></i></span>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<img src="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#102;&#105;&#108;&#101;&#115;&#46;&#99;&#97;&#116;&#98;&#111;&#120;&#46;&#109;&#111;&#101;&#47;&#48;&#118;&#110;&#54;&#122;&#115;&#46;&#106;&#112;&#103;" alt="&#68;&#101;&#116;&#97;&#105;&#108;&#32;&#80;&#114;&#111;&#100;&#117;&#107;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#112;&#114;&#111;&#100;&#117;&#99;&#116;&#45;&#105;&#110;&#102;&#111;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<h3>&#74;&#65;&#83;&#65;&#32;&#82;&#69;&#75;&#66;&#69;&#82;&#47;&#77;&#67;</h3>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<ul>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#83;&#112;&#101;&#115;&#105;&#102;&#105;&#107;&#97;&#115;&#105;&#32;&#58;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#70;&#82;&#69;&#69;&#32;&#66;&#73;&#65;&#89;&#65;&#32;&#65;&#68;&#77;&#73;&#78;&#32;&#83;&#65;&#78;&#71;&#65;&#84;&#32;&#77;&#85;&#82;&#65;&#72;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#65;&#68;&#77;&#73;&#78;&#32;&#65;&#78;&#84;&#73;&#32;&#83;&#76;&#79;&#87;&#32;&#82;&#69;&#83;&#80;&#79;&#78;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#65;&#68;&#77;&#73;&#78;&#32;&#79;&#78;&#32;&#49;&#195;&#151;&#50;&#52;&#74;&#65;&#77;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</ul><br>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#112;&#114;&#105;&#99;&#101;&#101;">&#79;&#82;&#68;&#69;&#82;&#32;&#68;&#73;&#83;&#73;&#78;&#73;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p style="&#116;&#101;&#120;&#116;&#45;&#97;&#108;&#105;&#103;&#110;&#58;&#32;&#99;&#101;&#110;&#116;&#101;&#114;&#59;">&#83;&#105;&#108;&#97;&#104;&#107;&#97;&#110;&#32;&#80;&#105;&#108;&#105;&#104;&#32;&#77;&#101;&#116;&#104;&#111;&#100;&#101;&#32;&#80;&#101;&#109;&#101;&#115;&#97;&#110;&#97;&#110;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<a href="&#35;" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;&#32;&#108;&#101;&#102;&#116;&#45;&#98;&#117;&#116;&#116;&#111;&#110;" onclick="&#97;&#100;&#100;&#84;&#111;&#67;&#97;&#114;&#116;&#40;'JASA REKBER/MC', 1500)">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<i class="&#102;&#97;&#98;&#32;&#102;&#97;&#45;&#119;&#104;&#97;&#116;&#115;&#97;&#112;&#112;"></i>&#87;&#104;&#97;&#116;&#115;&#65;&#112;&#112;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</a>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<a href="&#35;" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;&#32;&#108;&#101;&#102;&#116;&#45;&#98;&#117;&#116;&#116;&#111;&#110;" onclick="&#97;&#100;&#100;&#84;&#111;&#67;&#97;&#114;&#116;&#84;&#108;&#40;'JASA REKBER/MC', 1500)">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<i class="&#102;&#97;&#98;&#32;&#102;&#97;&#45;&#116;&#101;&#108;&#101;&#103;&#114;&#97;&#109;"></i>&#84;&#101;&#108;&#101;&#103;&#114;&#97;&#109;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</a>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#13;
+&#32;&#32;&#32;&#32;<div id="&#109;&#111;&#100;&#97;&#108;&#53;" class="&#109;&#111;&#100;&#97;&#108;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#109;&#111;&#100;&#97;&#108;&#45;&#99;&#111;&#110;&#116;&#101;&#110;&#116;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<span class="&#109;&#111;&#100;&#97;&#108;&#45;&#99;&#108;&#111;&#115;&#101;" onclick="&#99;&#108;&#111;&#115;&#101;&#77;&#111;&#100;&#97;&#108;&#40;'modal5')"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#116;&#105;&#109;&#101;&#115;"></i></span>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<img src="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#102;&#105;&#108;&#101;&#115;&#46;&#99;&#97;&#116;&#98;&#111;&#120;&#46;&#109;&#111;&#101;&#47;&#115;&#51;&#118;&#103;&#118;&#103;&#46;&#106;&#112;&#103;" alt="&#68;&#101;&#116;&#97;&#105;&#108;&#32;&#80;&#114;&#111;&#100;&#117;&#107;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#112;&#114;&#111;&#100;&#117;&#99;&#116;&#45;&#105;&#110;&#102;&#111;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<h3>&#84;&#79;&#80;&#32;&#85;&#80;&#32;&#71;&#65;&#77;&#69;</h3>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<ul>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#83;&#112;&#101;&#115;&#105;&#102;&#105;&#107;&#97;&#115;&#105;&#32;&#58;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#80;&#82;&#79;&#83;&#69;&#83;&#32;&#73;&#78;&#83;&#84;&#65;&#78;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#79;&#78;&#32;&#49;&#195;&#151;&#50;&#52;&#74;&#65;&#77;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#76;&#65;&#78;&#71;&#83;&#85;&#78;&#71;&#32;&#77;&#65;&#83;&#85;&#75;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#80;&#82;&#79;&#83;&#69;&#83;&#32;&#67;&#85;&#77;&#65;&#78;&#32;&#80;&#65;&#75;&#69;&#32;&#73;&#68;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</ul><br>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#112;&#114;&#105;&#99;&#101;&#101;">&#79;&#82;&#68;&#69;&#82;&#32;&#68;&#73;&#83;&#73;&#78;&#73;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p style="&#116;&#101;&#120;&#116;&#45;&#97;&#108;&#105;&#103;&#110;&#58;&#32;&#99;&#101;&#110;&#116;&#101;&#114;&#59;">&#83;&#105;&#108;&#97;&#104;&#107;&#97;&#110;&#32;&#80;&#105;&#108;&#105;&#104;&#32;&#77;&#101;&#116;&#104;&#111;&#100;&#101;&#32;&#80;&#101;&#109;&#101;&#115;&#97;&#110;&#97;&#110;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<a href="&#35;" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;&#32;&#108;&#101;&#102;&#116;&#45;&#98;&#117;&#116;&#116;&#111;&#110;" onclick="&#97;&#100;&#100;&#84;&#111;&#67;&#97;&#114;&#116;&#40;'TOP UP GAME', 4500)">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<i class="&#102;&#97;&#98;&#32;&#102;&#97;&#45;&#119;&#104;&#97;&#116;&#115;&#97;&#112;&#112;"></i>&#87;&#104;&#97;&#116;&#115;&#65;&#112;&#112;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</a>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<a href="&#35;" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;&#32;&#108;&#101;&#102;&#116;&#45;&#98;&#117;&#116;&#116;&#111;&#110;" onclick="&#97;&#100;&#100;&#84;&#111;&#67;&#97;&#114;&#116;&#84;&#108;&#40;'TOP UP GAME', 4500)">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<i class="&#102;&#97;&#98;&#32;&#102;&#97;&#45;&#116;&#101;&#108;&#101;&#103;&#114;&#97;&#109;"></i>&#84;&#101;&#108;&#101;&#103;&#114;&#97;&#109;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</a>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#13;
+&#32;&#32;&#32;&#32;<div id="&#109;&#111;&#100;&#97;&#108;&#54;" class="&#109;&#111;&#100;&#97;&#108;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#109;&#111;&#100;&#97;&#108;&#45;&#99;&#111;&#110;&#116;&#101;&#110;&#116;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<span class="&#109;&#111;&#100;&#97;&#108;&#45;&#99;&#108;&#111;&#115;&#101;" onclick="&#99;&#108;&#111;&#115;&#101;&#77;&#111;&#100;&#97;&#108;&#40;'modal6')"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#116;&#105;&#109;&#101;&#115;"></i></span>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<img src="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#102;&#105;&#108;&#101;&#115;&#46;&#99;&#97;&#116;&#98;&#111;&#120;&#46;&#109;&#111;&#101;&#47;&#114;&#115;&#100;&#111;&#114;&#118;&#46;&#106;&#112;&#103;" alt="&#68;&#101;&#116;&#97;&#105;&#108;&#32;&#80;&#114;&#111;&#100;&#117;&#107;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#112;&#114;&#111;&#100;&#117;&#99;&#116;&#45;&#105;&#110;&#102;&#111;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<h3>&#74;&#65;&#83;&#65;&#32;&#83;&#69;&#87;&#65;&#32;&#66;&#79;&#84;&#32;&#87;&#65;</h3>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<ul>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#83;&#112;&#101;&#115;&#105;&#102;&#105;&#107;&#97;&#115;&#105;&#32;&#58;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#70;&#73;&#84;&#85;&#82;&#32;&#66;&#65;&#78;&#89;&#65;&#75;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#65;&#78;&#84;&#73;&#32;&#68;&#69;&#76;&#65;&#89;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#79;&#78;&#32;&#50;&#52;&#32;&#74;&#65;&#77;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#77;&#69;&#78;&#74;&#65;&#71;&#65;&#32;&#68;&#65;&#82;&#73;&#32;&#80;&#69;&#78;&#89;&#85;&#83;&#85;&#80;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</ul><br>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#112;&#114;&#105;&#99;&#101;&#101;">&#79;&#82;&#68;&#69;&#82;&#32;&#68;&#73;&#83;&#73;&#78;&#73;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p style="&#116;&#101;&#120;&#116;&#45;&#97;&#108;&#105;&#103;&#110;&#58;&#32;&#99;&#101;&#110;&#116;&#101;&#114;&#59;">&#83;&#105;&#108;&#97;&#104;&#107;&#97;&#110;&#32;&#80;&#105;&#108;&#105;&#104;&#32;&#77;&#101;&#116;&#104;&#111;&#100;&#101;&#32;&#80;&#101;&#109;&#101;&#115;&#97;&#110;&#97;&#110;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<a href="&#35;" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;&#32;&#108;&#101;&#102;&#116;&#45;&#98;&#117;&#116;&#116;&#111;&#110;" onclick="&#97;&#100;&#100;&#84;&#111;&#67;&#97;&#114;&#116;&#40;'JASA SEWA BOT WA', 6000)">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<i class="&#102;&#97;&#98;&#32;&#102;&#97;&#45;&#119;&#104;&#97;&#116;&#115;&#97;&#112;&#112;"></i>&#87;&#104;&#97;&#116;&#115;&#65;&#112;&#112;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</a>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<a href="&#35;" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;&#32;&#108;&#101;&#102;&#116;&#45;&#98;&#117;&#116;&#116;&#111;&#110;" onclick="&#97;&#100;&#100;&#84;&#111;&#67;&#97;&#114;&#116;&#84;&#108;&#40;'JASA SEWA BOT WA', 6000)">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<i class="&#102;&#97;&#98;&#32;&#102;&#97;&#45;&#116;&#101;&#108;&#101;&#103;&#114;&#97;&#109;"></i>&#84;&#101;&#108;&#101;&#103;&#114;&#97;&#109;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</a>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#13;
+&#32;&#32;&#32;&#32;<div id="&#109;&#111;&#100;&#97;&#108;&#55;" class="&#109;&#111;&#100;&#97;&#108;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#109;&#111;&#100;&#97;&#108;&#45;&#99;&#111;&#110;&#116;&#101;&#110;&#116;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<span class="&#109;&#111;&#100;&#97;&#108;&#45;&#99;&#108;&#111;&#115;&#101;" onclick="&#99;&#108;&#111;&#115;&#101;&#77;&#111;&#100;&#97;&#108;&#40;'modal7')"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#116;&#105;&#109;&#101;&#115;"></i></span>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<img src="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#102;&#105;&#108;&#101;&#115;&#46;&#99;&#97;&#116;&#98;&#111;&#120;&#46;&#109;&#111;&#101;&#47;&#97;&#104;&#57;&#117;&#54;&#53;&#46;&#106;&#112;&#103;" alt="&#68;&#101;&#116;&#97;&#105;&#108;&#32;&#80;&#114;&#111;&#100;&#117;&#107;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#112;&#114;&#111;&#100;&#117;&#99;&#116;&#45;&#105;&#110;&#102;&#111;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<h3>&#74;&#65;&#83;&#65;&#32;&#67;&#86;&#32;&#83;&#65;&#76;&#68;&#79;</h3>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<ul>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#83;&#112;&#101;&#115;&#105;&#102;&#105;&#107;&#97;&#115;&#105;&#32;&#58;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#80;&#82;&#79;&#83;&#69;&#83;&#32;&#83;&#65;&#78;&#71;&#65;&#84;&#32;&#73;&#78;&#83;&#84;&#65;&#78;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#80;&#82;&#79;&#83;&#69;&#83;&#32;&#83;&#65;&#78;&#71;&#65;&#84;&#32;&#65;&#77;&#65;&#78;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</ul><br>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#112;&#114;&#105;&#99;&#101;&#101;">&#79;&#82;&#68;&#69;&#82;&#32;&#68;&#73;&#83;&#73;&#78;&#73;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p style="&#116;&#101;&#120;&#116;&#45;&#97;&#108;&#105;&#103;&#110;&#58;&#32;&#99;&#101;&#110;&#116;&#101;&#114;&#59;">&#83;&#105;&#108;&#97;&#104;&#107;&#97;&#110;&#32;&#80;&#105;&#108;&#105;&#104;&#32;&#77;&#101;&#116;&#104;&#111;&#100;&#101;&#32;&#80;&#101;&#109;&#101;&#115;&#97;&#110;&#97;&#110;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<a href="&#35;" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;&#32;&#108;&#101;&#102;&#116;&#45;&#98;&#117;&#116;&#116;&#111;&#110;" onclick="&#97;&#100;&#100;&#84;&#111;&#67;&#97;&#114;&#116;&#40;'JASA CV SALDO', 6000)">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<i class="&#102;&#97;&#98;&#32;&#102;&#97;&#45;&#119;&#104;&#97;&#116;&#115;&#97;&#112;&#112;"></i>&#87;&#104;&#97;&#116;&#115;&#65;&#112;&#112;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</a>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<a href="&#35;" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;&#32;&#108;&#101;&#102;&#116;&#45;&#98;&#117;&#116;&#116;&#111;&#110;" onclick="&#97;&#100;&#100;&#84;&#111;&#67;&#97;&#114;&#116;&#84;&#108;&#40;'JASA CV SALDO', 6000)">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<i class="&#102;&#97;&#98;&#32;&#102;&#97;&#45;&#116;&#101;&#108;&#101;&#103;&#114;&#97;&#109;"></i>&#84;&#101;&#108;&#101;&#103;&#114;&#97;&#109;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</a>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;<div id="&#109;&#111;&#100;&#97;&#108;&#56;" class="&#109;&#111;&#100;&#97;&#108;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#109;&#111;&#100;&#97;&#108;&#45;&#99;&#111;&#110;&#116;&#101;&#110;&#116;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<span class="&#109;&#111;&#100;&#97;&#108;&#45;&#99;&#108;&#111;&#115;&#101;" onclick="&#99;&#108;&#111;&#115;&#101;&#77;&#111;&#100;&#97;&#108;&#40;'modal8')"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#116;&#105;&#109;&#101;&#115;"></i></span>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<img src="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#102;&#105;&#108;&#101;&#115;&#46;&#99;&#97;&#116;&#98;&#111;&#120;&#46;&#109;&#111;&#101;&#47;&#121;&#110;&#51;&#52;&#48;&#52;&#46;&#106;&#112;&#103;" alt="&#68;&#101;&#116;&#97;&#105;&#108;&#32;&#80;&#114;&#111;&#100;&#117;&#107;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#112;&#114;&#111;&#100;&#117;&#99;&#116;&#45;&#105;&#110;&#102;&#111;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<h3>&#66;&#85;&#89;&#32;&#80;&#65;&#78;&#69;&#76;</h3>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<ul>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#83;&#112;&#101;&#115;&#105;&#102;&#105;&#107;&#97;&#115;&#105;&#32;&#58;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#80;&#65;&#78;&#69;&#76;&#32;&#49;&#48;&#48;&#37;&#32;&#65;&#77;&#65;&#78;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#71;&#65;&#82;&#65;&#78;&#83;&#73;&#32;&#55;&#32;&#72;&#65;&#82;&#73;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#65;&#78;&#84;&#73;&#32;&#68;&#69;&#76;&#65;&#89;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</ul><br>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#112;&#114;&#105;&#99;&#101;&#101;">&#79;&#82;&#68;&#69;&#82;&#32;&#68;&#73;&#83;&#73;&#78;&#73;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p style="&#116;&#101;&#120;&#116;&#45;&#97;&#108;&#105;&#103;&#110;&#58;&#32;&#99;&#101;&#110;&#116;&#101;&#114;&#59;">&#83;&#105;&#108;&#97;&#104;&#107;&#97;&#110;&#32;&#80;&#105;&#108;&#105;&#104;&#32;&#77;&#101;&#116;&#104;&#111;&#100;&#101;&#32;&#80;&#101;&#109;&#101;&#115;&#97;&#110;&#97;&#110;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<a href="&#35;" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;&#32;&#108;&#101;&#102;&#116;&#45;&#98;&#117;&#116;&#116;&#111;&#110;" onclick="&#97;&#100;&#100;&#84;&#111;&#67;&#97;&#114;&#116;&#40;'BUY PANEL BG', 1500)">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<i class="&#102;&#97;&#98;&#32;&#102;&#97;&#45;&#119;&#104;&#97;&#116;&#115;&#97;&#112;&#112;"></i>&#87;&#104;&#97;&#116;&#115;&#65;&#112;&#112;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</a>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<a href="&#35;" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;&#32;&#108;&#101;&#102;&#116;&#45;&#98;&#117;&#116;&#116;&#111;&#110;" onclick="&#97;&#100;&#100;&#84;&#111;&#67;&#97;&#114;&#116;&#84;&#108;&#40;'BUY PANEL BG', 1500)">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<i class="&#102;&#97;&#98;&#32;&#102;&#97;&#45;&#116;&#101;&#108;&#101;&#103;&#114;&#97;&#109;"></i>&#84;&#101;&#108;&#101;&#103;&#114;&#97;&#109;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</a>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<div id="&#109;&#111;&#100;&#97;&#108;&#57;" class="&#109;&#111;&#100;&#97;&#108;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#109;&#111;&#100;&#97;&#108;&#45;&#99;&#111;&#110;&#116;&#101;&#110;&#116;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<span class="&#109;&#111;&#100;&#97;&#108;&#45;&#99;&#108;&#111;&#115;&#101;" onclick="&#99;&#108;&#111;&#115;&#101;&#77;&#111;&#100;&#97;&#108;&#40;'modal9')"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#116;&#105;&#109;&#101;&#115;"></i></span>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<img src="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#102;&#105;&#108;&#101;&#115;&#46;&#99;&#97;&#116;&#98;&#111;&#120;&#46;&#109;&#111;&#101;&#47;&#116;&#54;&#109;&#120;&#104;&#56;&#46;&#106;&#112;&#103;" alt="&#68;&#101;&#116;&#97;&#105;&#108;&#32;&#80;&#114;&#111;&#100;&#117;&#107;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#112;&#114;&#111;&#100;&#117;&#99;&#116;&#45;&#105;&#110;&#102;&#111;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<h3>&#66;&#85;&#89;&#32;&#65;&#68;&#80;</h3>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<ul>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#83;&#112;&#101;&#115;&#105;&#102;&#105;&#107;&#97;&#115;&#105;&#32;&#58;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#71;&#65;&#82;&#65;&#78;&#83;&#73;&#32;&#55;&#32;&#72;&#65;&#82;&#73;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#77;&#85;&#82;&#65;&#72;&#32;&#68;&#65;&#78;&#32;&#66;&#69;&#82;&#75;&#85;&#65;&#76;&#73;&#84;&#65;&#83;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#80;&#69;&#82;&#77;&#65;&#78;&#69;&#78;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</ul><br>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#112;&#114;&#105;&#99;&#101;&#101;">&#79;&#82;&#68;&#69;&#82;&#32;&#68;&#73;&#83;&#73;&#78;&#73;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p style="&#116;&#101;&#120;&#116;&#45;&#97;&#108;&#105;&#103;&#110;&#58;&#32;&#99;&#101;&#110;&#116;&#101;&#114;&#59;">&#83;&#105;&#108;&#97;&#104;&#107;&#97;&#110;&#32;&#80;&#105;&#108;&#105;&#104;&#32;&#77;&#101;&#116;&#104;&#111;&#100;&#101;&#32;&#80;&#101;&#109;&#101;&#115;&#97;&#110;&#97;&#110;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<a href="&#35;" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;&#32;&#108;&#101;&#102;&#116;&#45;&#98;&#117;&#116;&#116;&#111;&#110;" onclick="&#97;&#100;&#100;&#84;&#111;&#67;&#97;&#114;&#116;&#40;'BUY ADP BG', 1500)">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<i class="&#102;&#97;&#98;&#32;&#102;&#97;&#45;&#119;&#104;&#97;&#116;&#115;&#97;&#112;&#112;"></i>&#87;&#104;&#97;&#116;&#115;&#65;&#112;&#112;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</a>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<a href="&#35;" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;&#32;&#108;&#101;&#102;&#116;&#45;&#98;&#117;&#116;&#116;&#111;&#110;" onclick="&#97;&#100;&#100;&#84;&#111;&#67;&#97;&#114;&#116;&#84;&#108;&#40;'BUY ADP BG', 1500)">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<i class="&#102;&#97;&#98;&#32;&#102;&#97;&#45;&#116;&#101;&#108;&#101;&#103;&#114;&#97;&#109;"></i>&#84;&#101;&#108;&#101;&#103;&#114;&#97;&#109;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</a>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<div id="&#109;&#111;&#100;&#97;&#108;&#49;&#48;" class="&#109;&#111;&#100;&#97;&#108;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#109;&#111;&#100;&#97;&#108;&#45;&#99;&#111;&#110;&#116;&#101;&#110;&#116;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<span class="&#109;&#111;&#100;&#97;&#108;&#45;&#99;&#108;&#111;&#115;&#101;" onclick="&#99;&#108;&#111;&#115;&#101;&#77;&#111;&#100;&#97;&#108;&#40;'modal10')"><i class="&#102;&#97;&#115;&#32;&#102;&#97;&#45;&#116;&#105;&#109;&#101;&#115;"></i></span>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<img src="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#102;&#105;&#108;&#101;&#115;&#46;&#99;&#97;&#116;&#98;&#111;&#120;&#46;&#109;&#111;&#101;&#47;&#103;&#49;&#120;&#57;&#97;&#106;&#46;&#106;&#112;&#103;" alt="&#68;&#101;&#116;&#97;&#105;&#108;&#32;&#80;&#114;&#111;&#100;&#117;&#107;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#112;&#114;&#111;&#100;&#117;&#99;&#116;&#45;&#105;&#110;&#102;&#111;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<h3>&#66;&#85;&#89;&#32;&#65;&#80;&#75;&#32;&#80;&#82;&#69;&#77;&#73;&#85;&#77;</h3>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<ul>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#83;&#112;&#101;&#115;&#105;&#102;&#105;&#107;&#97;&#115;&#105;&#32;&#58;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#66;&#69;&#82;&#75;&#85;&#65;&#76;&#73;&#84;&#65;&#83;&#32;&#66;&#65;&#73;&#75;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#71;&#65;&#82;&#65;&#78;&#83;&#73;&#32;&#83;&#65;&#78;&#71;&#65;&#84;&#32;&#66;&#65;&#73;&#75;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<li>&#77;&#85;&#82;&#65;&#72;</li>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</ul><br>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p class="&#112;&#114;&#105;&#99;&#101;&#101;">&#79;&#82;&#68;&#69;&#82;&#32;&#68;&#73;&#83;&#73;&#78;&#73;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p style="&#116;&#101;&#120;&#116;&#45;&#97;&#108;&#105;&#103;&#110;&#58;&#32;&#99;&#101;&#110;&#116;&#101;&#114;&#59;">&#83;&#105;&#108;&#97;&#104;&#107;&#97;&#110;&#32;&#80;&#105;&#108;&#105;&#104;&#32;&#77;&#101;&#116;&#104;&#111;&#100;&#101;&#32;&#80;&#101;&#109;&#101;&#115;&#97;&#110;&#97;&#110;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<a href="&#35;" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;&#32;&#108;&#101;&#102;&#116;&#45;&#98;&#117;&#116;&#116;&#111;&#110;" onclick="&#97;&#100;&#100;&#84;&#111;&#67;&#97;&#114;&#116;&#40;'BUY PREMIUM BG', 1500)">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<i class="&#102;&#97;&#98;&#32;&#102;&#97;&#45;&#119;&#104;&#97;&#116;&#115;&#97;&#112;&#112;"></i>&#87;&#104;&#97;&#116;&#115;&#65;&#112;&#112;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</a>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<a href="&#35;" class="&#97;&#100;&#100;&#45;&#116;&#111;&#45;&#99;&#97;&#114;&#116;&#32;&#108;&#101;&#102;&#116;&#45;&#98;&#117;&#116;&#116;&#111;&#110;" onclick="&#97;&#100;&#100;&#84;&#111;&#67;&#97;&#114;&#116;&#84;&#108;&#40;'BUY PREMIUM BG', 1500)">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<i class="&#102;&#97;&#98;&#32;&#102;&#97;&#45;&#116;&#101;&#108;&#101;&#103;&#114;&#97;&#109;"></i>&#84;&#101;&#108;&#101;&#103;&#114;&#97;&#109;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</a>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<footer class="&#102;&#111;&#111;&#116;&#101;&#114;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<div class="&#102;&#111;&#111;&#116;&#101;&#114;&#45;&#99;&#111;&#110;&#116;&#101;&#110;&#116;">&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#194;&#169;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<!-- -->&#50;&#48;&#50;&#52;<!-- -->&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#70;&#69;&#82;&#80;&#69;&#68;&#73;&#65;&#46;&#32;&#65;&#108;&#108;&#32;&#114;&#105;&#103;&#104;&#116;&#115;&#32;&#114;&#101;&#115;&#101;&#114;&#118;&#101;&#100;&#46;&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</p>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</div>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</footer>&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#13;
+&#13;
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<script src='&#115;&#99;&#46;&#106;&#115;'></script>&#13;
+</body>&#13;
+&#32;</html>
